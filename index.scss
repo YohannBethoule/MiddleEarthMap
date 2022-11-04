@@ -1,0 +1,59 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+body{
+    background-colo: "red";
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.leaflet-container {
+    width: 90vw;
+    aspect-ratio: 5000/4344;
+}
+
+
+.leaflet-popup {
+    min-width: 200px;
+
+    .leaflet-popup-close-button {
+        margin: 5px;
+        span {
+            font-size: 2rem;
+        }
+    }
+
+    .leaflet-popup-content{
+        padding: 10px;
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .info-link-container{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    a.info-link {
+        border: 1px solid black;
+        background-color: rgba(0,0,0,0.78);
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+            opacity: 0.9;
+            color: aliceblue;
+        }
+    }
+}

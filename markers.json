@@ -1,0 +1,97 @@
+[
+  {
+    "title": "Minas Tirith",
+    "description": "Where the big battle went brrrr",
+    "infoLink": "https://tolkiengateway.net/wiki/Minas_Tirith",
+    "x": 3279,
+    "y": 2707
+  },
+  {
+    "title": "Bree",
+    "infoLink": "https://tolkiengateway.net/wiki/Bree",
+    "x": 1793,
+    "y": 1163
+  },
+  {
+    "title": "Erebor",
+    "description": "Attacked by Smaug the dragon",
+    "infoLink": "https://tolkiengateway.net/wiki/Erebor",
+    "x": 3405,
+    "y": 825
+  },
+  {
+    "title": "Rivendell",
+    "sildarinTitle": "Imladris",
+    "description": "House of Elron",
+    "infoLink": "https://tolkiengateway.net/wiki/Rivendell",
+    "x": 2516,
+    "y": 1123
+  },
+  {
+    "title": "Mount Doom",
+    "sildarinTitle": "Orodruin, Amon Amarth",
+    "description": "Where the One Ring was forged",
+    "infoLink": "https://tolkiengateway.net/wiki/Mount_Doom",
+    "x": 3606,
+    "y": 2603
+  },
+  {
+    "title": "Osgiliath",
+    "description": "",
+    "infoLink": "https://tolkiengateway.net/wiki/Osgiliath",
+    "x": 3330,
+    "y": 2700
+  },
+  {
+    "title": "Hobbiton",
+    "description": "",
+    "infoLink": "https://tolkiengateway.net/wiki/Hobbiton",
+    "x": 1482,
+    "y": 1158
+  },
+  {
+    "title": "Helm's Deep",
+    "description": "",
+    "infoLink": "https://tolkiengateway.net/wiki/Helm's_Deep",
+    "x": 2423,
+    "y": 2321
+  },
+  {
+    "title": "Black Gate",
+    "sildarinTitle": "Morannon",
+    "description": "",
+    "infoLink": "https://tolkiengateway.net/wiki/Black_Gate",
+    "x": 3389,
+    "y": 2377
+  },
+  {
+    "title": "Weathertop",
+    "sildarinTitle": "Amun Sûl",
+    "description": "",
+    "infoLink": "https://tolkiengateway.net/wiki/Weathertop",
+    "x": 2000,
+    "y": 1158
+  },
+  {
+    "title": "Isengard",
+    "sildarinTitle": "Angrenost",
+    "description": "Isengard was one of the three major fortresses of Gondor, and held within it one of the realm's palantíri. In the latter half of the Third Age, the stronghold came into the possession of Saruman, becoming his home and personal domain until his defeat in the War of the Ring. ",
+    "infoLink": "https://tolkiengateway.net/wiki/Isengard",
+    "x": 2335,
+    "y": 2117
+  },
+  {
+    "title": "Barad-dûr",
+    "description": "",
+    "infoLink": "https://tolkiengateway.net/wiki/Barad-dûr",
+    "x": 3750,
+    "y": 2553
+  },
+  {
+    "title": "Edoras",
+    "description": "",
+    "infoLink": "https://tolkiengateway.net/wiki/Edoras",
+    "x": 2589,
+    "y": 2383
+  }
+]
