@@ -11,7 +11,7 @@ const createInfoDialog = (data) => {
         info += `<p class="description">${data.description}</p>`;
     }
     if (data.infoLink) {
-        info += `<span class="info-link-container"><a class="info-link"href="${data.infoLink}" target="_blank">Learn more on Tolkien Gateway</a></span>`;
+        info += `<span class="info-link-container"><a class="info-link" href="${data.infoLink}" target="_blank">Learn more on Tolkien Gateway</a></span>`;
     }
     return info;
 }
@@ -30,8 +30,8 @@ const map = L.map('map', {
     minZoom: -1
 });
 
-const bounds = [[0,0], [4334,5000]];
-const image = L.imageOverlay('assets/bettermap.webp', bounds).addTo(map);
+const bounds = [[0, 0], [4334, 5000]];
+const image = L.imageOverlay('assets/map.webp', bounds).addTo(map);
 
 map.fitBounds(bounds);
 
@@ -39,9 +39,9 @@ fetch('./markers.json')
     .then((response) => response.json())
     .then((data) => {
         console.log(data)
-       for (let d of data) {
-           console.log(d)
-           createMarker(map, d)
+        for (let d of data) {
+            console.log(d)
+            createMarker(map, d)
        }
     });
 
