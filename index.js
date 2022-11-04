@@ -27,7 +27,7 @@ const createMarker = (map, data) => {
 
 const map = L.map('map', {
     crs: L.CRS.Simple,
-    minZoom: -1
+    minZoom: -2
 });
 
 const bounds = [[0, 0], [4334, 5000]];

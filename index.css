@@ -1,15 +1,24 @@
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
 body {
-  background-colo: "red";
   width: 100vw;
   height: 100vh;
   display: flex;
-  align-content: center;
+}
+
+aside {
+  display: flex;
+  flex-grow: 1;
   justify-content: center;
+  align-items: center;
+}
+
+aside #main-title {
+  font-size: 3rem;
+  margin: 1rem;
 }
 
 .leaflet-container {
-  width: 90vw;
+  height: 100vh;
   aspect-ratio: 5000/4344;
 }
 
@@ -17,7 +26,7 @@ body {
   min-width: 200px;
 }
 .leaflet-popup .leaflet-popup-close-button {
-  margin: 5px;
+  margin: 1rem;
 }
 .leaflet-popup .leaflet-popup-close-button span {
   font-size: 2rem;
