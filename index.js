@@ -30,7 +30,8 @@ const createInfoDialog = (data) => {
 
 const getFilters = () => {
     let filters = {
-        'places': []
+        'places': [],
+        'events': []
     };
     document.querySelectorAll('#filters fieldset').forEach(category => {
         category.querySelectorAll('input[type=checkbox]:checked').forEach(filter => {
@@ -57,7 +58,7 @@ const renderMarkersFromFilters = (filters) => {
         isRendered = false;
         for (const category of Object.keys(filters)) {
             for (const filter of filters[category]) {
-                if (m.tags[category].includes(filter)) {
+                if (m.tags[category]?.includes(filter)) {
                     isRendered = true;
                 }
             }
