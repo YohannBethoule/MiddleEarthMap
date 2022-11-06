@@ -1,11 +1,13 @@
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
-          integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin=""/>
-    <link rel="stylesheet" href="index.css">
-    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
-            integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+    <link href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css" rel="stylesheet">
+    <script crossorigin=""
+            integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+            src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"></script>
+    <link crossorigin="" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+          integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet">
+    <link href="assets/the_one_ring.ico" rel="icon"/>
     <title>Middle-Earth Map</title>
 </head>
 <body>
@@ -13,6 +15,64 @@
 </main>
 <aside>
     <h1 id="main-title">Middle-Earth interactive map</h1>
+    <section id="site-description">This is an interactive map of Middle-Earth during the Third Age.</section>
+    <section id="filters">
+        <fieldset id="filters-places">
+            <legend>Places</legend>
+
+            <div>
+                <input checked data-category="places" data-filter="all" id="all-places" name="all-places"
+                       type="checkbox">
+                <label for="all-places">All</label>
+            </div>
+
+            <div>
+                <input data-category="places" data-filter="elven" id="elven-places" name="elven-places" type="checkbox">
+                <label for="elven-places">Elven Cities</label>
+            </div>
+
+            <div>
+                <input data-category="places" data-filter="human" id="human-places" name="human-places" type="checkbox">
+                <label for="elven-places">Human Cities</label>
+            </div>
+
+            <div>
+                <input data-category="places" data-filter="dwarven" id="dwarven-places" name="dwarven-places"
+                       type="checkbox">
+                <label for="dwarven-places">Dwarven Realms</label>
+            </div>
+
+            <div>
+                <input data-category="places" data-filter="hobbit" id="hobbit-places" name="hobbit-places"
+                       type="checkbox">
+                <label for="hobbit-places">Hobbit Cities</label>
+            </div>
+
+            <div>
+                <input data-category="places" data-filter="dark" id="dark-places" name="dark-places" type="checkbox">
+                <label for="dark-places">Dark Territories</label>
+            </div>
+        </fieldset>
+        <!--                <article id="filters-places">-->
+        <!--                    <h1>Places</h1>-->
+        <!--                    <ul>-->
+        <!--                        <li><input type="checkbox" data-category="places" data-filter="all" onchange="changeFilters(event)">All</input></li>-->
+        <!--                    </ul>-->
+        <!--                </article>-->
+        <!--                <article id="filters-events">-->
+        <!--                    <h1>Events</h1>-->
+        <!--                    <ul>-->
+        <!--                        <li><input type="checkbox" data-category="events" data-filter="all" onchange="changeFilters(event)">All</input></li>-->
+        <!--                    </ul>-->
+        <!--                </article>-->
+        <!--                <article id="filters-paths">-->
+        <!--                    <h1>Paths</h1>-->
+        <!--                    <ul>-->
+        <!--                        <li><input type="checkbox" data-category="paths" data-filter="all" onchange="changeFilters(event)">All</input></li>-->
+        <!--                    </ul>-->
+        <!--                </article>-->
+    </section>
+    <footer>Created by Yohann Bethoule, 2022</footer>
 </aside>
 <script src="index.js"></script>
 </body>

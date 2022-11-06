@@ -3,12 +3,25 @@
     "title": "Minas Tirith",
     "description": "Where the big battle went brrrr",
     "infoLink": "https://tolkiengateway.net/wiki/Minas_Tirith",
+    "tags": {
+      "places": [
+        "human"
+      ],
+      "events": [
+        "battle"
+      ]
+    },
     "x": 3279,
     "y": 2707
   },
   {
     "title": "Bree",
     "infoLink": "https://tolkiengateway.net/wiki/Bree",
+    "tags": {
+      "places": [
+        "human"
+      ]
+    },
     "x": 1793,
     "y": 1163
   },
@@ -16,6 +29,14 @@
     "title": "Erebor",
     "description": "Attacked by Smaug the dragon",
     "infoLink": "https://tolkiengateway.net/wiki/Erebor",
+    "tags": {
+      "places": [
+        "dwarven"
+      ],
+      "events": [
+        "battle"
+      ]
+    },
     "x": 3405,
     "y": 825
   },
@@ -24,6 +45,11 @@
     "sildarinTitle": "Imladris",
     "description": "House of Elron",
     "infoLink": "https://tolkiengateway.net/wiki/Rivendell",
+    "tags": {
+      "places": [
+        "elvish"
+      ]
+    },
     "x": 2516,
     "y": 1123
   },
@@ -32,6 +58,11 @@
     "sildarinTitle": "Orodruin, Amon Amarth",
     "description": "Where the One Ring was forged",
     "infoLink": "https://tolkiengateway.net/wiki/Mount_Doom",
+    "tags": {
+      "places": [
+        "dark"
+      ]
+    },
     "x": 3606,
     "y": 2603
   },
@@ -39,6 +70,14 @@
     "title": "Osgiliath",
     "description": "",
     "infoLink": "https://tolkiengateway.net/wiki/Osgiliath",
+    "tags": {
+      "places": [
+        "human"
+      ],
+      "events": [
+        "battle"
+      ]
+    },
     "x": 3330,
     "y": 2700
   },
@@ -46,6 +85,11 @@
     "title": "Hobbiton",
     "description": "",
     "infoLink": "https://tolkiengateway.net/wiki/Hobbiton",
+    "tags": {
+      "places": [
+        "hobbit"
+      ]
+    },
     "x": 1482,
     "y": 1158
   },
@@ -53,6 +97,14 @@
     "title": "Helm's Deep",
     "description": "",
     "infoLink": "https://tolkiengateway.net/wiki/Helm's_Deep",
+    "tags": {
+      "places": [
+        "human"
+      ],
+      "events": [
+        "battle"
+      ]
+    },
     "x": 2423,
     "y": 2321
   },
@@ -61,6 +113,14 @@
     "sildarinTitle": "Morannon",
     "description": "",
     "infoLink": "https://tolkiengateway.net/wiki/Black_Gate",
+    "tags": {
+      "places": [
+        "dark"
+      ],
+      "events": [
+        "battle"
+      ]
+    },
     "x": 3389,
     "y": 2377
   },
@@ -69,6 +129,11 @@
     "sildarinTitle": "Amun Sûl",
     "description": "",
     "infoLink": "https://tolkiengateway.net/wiki/Weathertop",
+    "tags": {
+      "places": [
+        "human"
+      ]
+    },
     "x": 2000,
     "y": 1158
   },
@@ -77,6 +142,14 @@
     "sildarinTitle": "Angrenost",
     "description": "Isengard was one of the three major fortresses of Gondor, and held within it one of the realm's palantíri. In the latter half of the Third Age, the stronghold came into the possession of Saruman, becoming his home and personal domain until his defeat in the War of the Ring. ",
     "infoLink": "https://tolkiengateway.net/wiki/Isengard",
+    "tags": {
+      "places": [
+        "dark"
+      ],
+      "events": [
+        "battle"
+      ]
+    },
     "x": 2335,
     "y": 2117
   },
@@ -84,6 +157,11 @@
     "title": "Barad-dûr",
     "description": "",
     "infoLink": "https://tolkiengateway.net/wiki/Barad-dûr",
+    "tags": {
+      "places": [
+        "dark"
+      ]
+    },
     "x": 3750,
     "y": 2553
   },
@@ -91,6 +169,11 @@
     "title": "Edoras",
     "description": "",
     "infoLink": "https://tolkiengateway.net/wiki/Edoras",
+    "tags": {
+      "places": [
+        "human"
+      ]
+    },
     "x": 2589,
     "y": 2383
   }

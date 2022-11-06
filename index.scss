@@ -1,26 +1,58 @@
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
 
+@import "styles/fonts";
+
 body {
     width: 100vw;
     height: 100vh;
     display: flex;
+    font-size: 1.5rem;
 }
 
 aside {
     display: flex;
+    flex-direction: column;
     flex-grow: 1;
-    justify-content: center;
+    //justify-content: center;
     align-items: center;
 
     #main-title {
         font-size: 3rem;
         margin: 1rem;
+        font-family: RingBearer;
+    }
+
+    #filters {
+        margin-right: auto;
+
+        fieldset {
+            display: flex;
+            margin: 1rem;
+            align-items: center;
+            padding: 1rem 2rem;
+            gap: 1rem;
+
+            legend {
+                font-size: 1.8rem;
+                margin-right: 2rem;
+            }
+
+            checkbox {
+
+            }
+        }
+    }
+
+    footer {
+        position: absolute;
+        bottom: 10px;
     }
 }
 
 .leaflet-container {
     height: 100vh;
-    aspect-ratio: 5000/4344;
+    width: 50vw;
+    //aspect-ratio: 5000/4344;
 }
 
 
