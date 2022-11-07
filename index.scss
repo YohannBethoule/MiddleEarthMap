@@ -67,20 +67,26 @@ aside {
         }
     }
 
-    .leaflet-popup-content{
+    .leaflet-popup-content {
         padding: 10px;
     }
 
     .title {
         font-weight: bold;
         font-size: 1.2rem;
+        margin-bottom: 0.5rem;
     }
 
-    .description {
+    .date {
+        font-weight: bold;
         font-size: 1rem;
     }
 
-    .info-link-container{
+    .description {
+
+    }
+
+    .info-link-container {
         margin-top: 1rem;
         display: flex;
         justify-content: center;

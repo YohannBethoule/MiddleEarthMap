@@ -43,6 +43,9 @@ const createInfoDialog = (data) => {
         }
         info += `</h1>`;
     }
+    if (data.date) {
+        info += `<h2 class="date">[${data.date}]</h2>`;
+    }
     if (data.description) {
         info += `<p class="description">${data.description}</p>`;
     }

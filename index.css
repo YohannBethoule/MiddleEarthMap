@@ -1,57 +1,52 @@
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
 @font-face {
-    font-family: RingBearer;
-    src: url("../assets/fonts/RingbearerMedium.ttf");
+  font-family: RingBearer;
+  src: url("../assets/fonts/RingbearerMedium.ttf");
 }
 body {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    font-size: 1.5rem;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  font-size: 1.5rem;
 }
 
 aside {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
 }
-
 aside #main-title {
-    font-size: 3rem;
-    margin: 1rem;
-    font-family: RingBearer;
+  font-size: 3rem;
+  margin: 1rem;
+  font-family: RingBearer;
 }
-
 aside #filters {
-    margin-right: auto;
+  margin-right: auto;
 }
-
 aside #filters fieldset {
-    display: flex;
-    margin: 1rem;
-    align-items: center;
-    padding: 1rem 2rem;
-    gap: 1rem;
+  display: flex;
+  margin: 1rem;
+  align-items: center;
+  padding: 1rem 2rem;
+  gap: 1rem;
 }
-
 aside #filters fieldset legend {
-    font-size: 1.8rem;
-    margin-right: 2rem;
+  font-size: 1.8rem;
+  margin-right: 2rem;
 }
-
 aside footer {
-    position: absolute;
-    bottom: 10px;
+  position: absolute;
+  bottom: 10px;
 }
 
 .leaflet-container {
-    height: 100vh;
-    width: 50vw;
+  height: 100vh;
+  width: 50vw;
 }
 
 .leaflet-popup {
-    min-width: 200px;
+  min-width: 200px;
 }
 .leaflet-popup .leaflet-popup-close-button {
   margin: 1rem;
@@ -65,8 +60,10 @@ aside footer {
 .leaflet-popup .title {
   font-weight: bold;
   font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
-.leaflet-popup .description {
+.leaflet-popup .date {
+  font-weight: bold;
   font-size: 1rem;
 }
 .leaflet-popup .info-link-container {
