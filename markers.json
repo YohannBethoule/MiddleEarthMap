@@ -1,180 +1,458 @@
-[
-  {
-    "title": "Minas Tirith",
-    "description": "Where the big battle went brrrr",
-    "infoLink": "https://tolkiengateway.net/wiki/Minas_Tirith",
-    "tags": {
-      "places": [
-        "human"
-      ],
-      "events": [
-        "battle"
-      ]
+{
+  "places": [
+    {
+      "title": "Minas Tirith",
+      "description": "Where the big battle went brrrr",
+      "infoLink": "https://tolkiengateway.net/wiki/Minas_Tirith",
+      "tags": {
+        "places": [
+          "human"
+        ]
+      },
+      "x": 3279,
+      "y": 2707
     },
-    "x": 3279,
-    "y": 2707
-  },
-  {
-    "title": "Bree",
-    "infoLink": "https://tolkiengateway.net/wiki/Bree",
-    "tags": {
-      "places": [
-        "human"
-      ]
+    {
+      "title": "Bree",
+      "infoLink": "https://tolkiengateway.net/wiki/Bree",
+      "tags": {
+        "places": [
+          "human"
+        ]
+      },
+      "x": 1793,
+      "y": 1163
     },
-    "x": 1793,
-    "y": 1163
-  },
-  {
-    "title": "Erebor",
-    "description": "Attacked by Smaug the dragon",
-    "infoLink": "https://tolkiengateway.net/wiki/Erebor",
-    "tags": {
-      "places": [
-        "dwarven"
-      ],
-      "events": [
-        "battle"
-      ]
+    {
+      "title": "Erebor",
+      "description": "Attacked by Smaug the dragon",
+      "infoLink": "https://tolkiengateway.net/wiki/Erebor",
+      "tags": {
+        "places": [
+          "dwarven"
+        ]
+      },
+      "x": 3405,
+      "y": 825
     },
-    "x": 3405,
-    "y": 825
-  },
-  {
-    "title": "Rivendell",
-    "sildarinTitle": "Imladris",
-    "description": "House of Elron",
-    "infoLink": "https://tolkiengateway.net/wiki/Rivendell",
-    "tags": {
-      "places": [
-        "elven"
-      ]
+    {
+      "title": "Rivendell",
+      "sindarinTitle": "Imladris",
+      "description": "House of Elron",
+      "infoLink": "https://tolkiengateway.net/wiki/Rivendell",
+      "tags": {
+        "places": [
+          "elven"
+        ]
+      },
+      "x": 2516,
+      "y": 1123
     },
-    "x": 2516,
-    "y": 1123
-  },
-  {
-    "title": "Mount Doom",
-    "sildarinTitle": "Orodruin, Amon Amarth",
-    "description": "Where the One Ring was forged",
-    "infoLink": "https://tolkiengateway.net/wiki/Mount_Doom",
-    "tags": {
-      "places": [
-        "dark"
-      ]
+    {
+      "title": "Mount Doom",
+      "sindarinTitle": "Orodruin, Amon Amarth",
+      "description": "Where the One Ring was forged",
+      "infoLink": "https://tolkiengateway.net/wiki/Mount_Doom",
+      "tags": {
+        "places": [
+          "dark"
+        ]
+      },
+      "x": 3606,
+      "y": 2603
     },
-    "x": 3606,
-    "y": 2603
-  },
-  {
-    "title": "Osgiliath",
-    "description": "",
-    "infoLink": "https://tolkiengateway.net/wiki/Osgiliath",
-    "tags": {
-      "places": [
-        "human"
-      ],
-      "events": [
-        "battle"
-      ]
+    {
+      "title": "Osgiliath",
+      "description": "",
+      "infoLink": "https://tolkiengateway.net/wiki/Osgiliath",
+      "tags": {
+        "places": [
+          "human"
+        ]
+      },
+      "x": 3330,
+      "y": 2700
     },
-    "x": 3330,
-    "y": 2700
-  },
-  {
-    "title": "Hobbiton",
-    "description": "",
-    "infoLink": "https://tolkiengateway.net/wiki/Hobbiton",
-    "tags": {
-      "places": [
-        "hobbit"
-      ]
+    {
+      "title": "Hobbiton",
+      "description": "",
+      "infoLink": "https://tolkiengateway.net/wiki/Hobbiton",
+      "tags": {
+        "places": [
+          "hobbit"
+        ]
+      },
+      "x": 1482,
+      "y": 1158
     },
-    "x": 1482,
-    "y": 1158
-  },
-  {
-    "title": "Helm's Deep",
-    "description": "",
-    "infoLink": "https://tolkiengateway.net/wiki/Helm's_Deep",
-    "tags": {
-      "places": [
-        "human"
-      ],
-      "events": [
-        "battle"
-      ]
+    {
+      "title": "Helm's Deep",
+      "description": "",
+      "infoLink": "https://tolkiengateway.net/wiki/Helm's_Deep",
+      "tags": {
+        "places": [
+          "human"
+        ]
+      },
+      "x": 2423,
+      "y": 2321
     },
-    "x": 2423,
-    "y": 2321
-  },
-  {
-    "title": "Black Gate",
-    "sildarinTitle": "Morannon",
-    "description": "",
-    "infoLink": "https://tolkiengateway.net/wiki/Black_Gate",
-    "tags": {
-      "places": [
-        "dark"
-      ],
-      "events": [
-        "battle"
-      ]
+    {
+      "title": "Black Gate",
+      "sindarinTitle": "Morannon",
+      "description": "",
+      "infoLink": "https://tolkiengateway.net/wiki/Black_Gate",
+      "tags": {
+        "places": [
+          "dark"
+        ]
+      },
+      "x": 3389,
+      "y": 2377
     },
-    "x": 3389,
-    "y": 2377
-  },
-  {
-    "title": "Weathertop",
-    "sildarinTitle": "Amun Sûl",
-    "description": "",
-    "infoLink": "https://tolkiengateway.net/wiki/Weathertop",
-    "tags": {
-      "places": [
-        "human"
-      ]
+    {
+      "title": "Weathertop",
+      "sindarinTitle": "Amun Sûl",
+      "description": "",
+      "infoLink": "https://tolkiengateway.net/wiki/Weathertop",
+      "tags": {
+        "places": [
+          "human"
+        ]
+      },
+      "x": 2000,
+      "y": 1158
     },
-    "x": 2000,
-    "y": 1158
-  },
-  {
-    "title": "Isengard",
-    "sildarinTitle": "Angrenost",
-    "description": "Isengard was one of the three major fortresses of Gondor, and held within it one of the realm's palantíri. In the latter half of the Third Age, the stronghold came into the possession of Saruman, becoming his home and personal domain until his defeat in the War of the Ring. ",
-    "infoLink": "https://tolkiengateway.net/wiki/Isengard",
-    "tags": {
-      "places": [
-        "dark"
-      ],
-      "events": [
-        "battle"
-      ]
+    {
+      "title": "Isengard",
+      "sindarinTitle": "Angrenost",
+      "description": "Isengard was one of the three major fortresses of Gondor, and held within it one of the realm's palantíri. In the latter half of the Third Age, the stronghold came into the possession of Saruman, becoming his home and personal domain until his defeat in the War of the Ring. ",
+      "infoLink": "https://tolkiengateway.net/wiki/Isengard",
+      "tags": {
+        "places": [
+          "dark"
+        ]
+      },
+      "x": 2335,
+      "y": 2117
     },
-    "x": 2335,
-    "y": 2117
-  },
-  {
-    "title": "Barad-dûr",
-    "description": "",
-    "infoLink": "https://tolkiengateway.net/wiki/Barad-dûr",
-    "tags": {
-      "places": [
-        "dark"
-      ]
+    {
+      "title": "Barad-dûr",
+      "description": "",
+      "infoLink": "https://tolkiengateway.net/wiki/Barad-dûr",
+      "tags": {
+        "places": [
+          "dark"
+        ]
+      },
+      "x": 3750,
+      "y": 2553
     },
-    "x": 3750,
-    "y": 2553
-  },
-  {
-    "title": "Edoras",
-    "description": "",
-    "infoLink": "https://tolkiengateway.net/wiki/Edoras",
-    "tags": {
-      "places": [
-        "human"
-      ]
+    {
+      "title": "Edoras",
+      "description": "",
+      "infoLink": "https://tolkiengateway.net/wiki/Edoras",
+      "tags": {
+        "places": [
+          "human"
+        ]
+      },
+      "x": 2589,
+      "y": 2383
     },
-    "x": 2589,
-    "y": 2383
-  }
-]
+    {
+      "title": "Moria",
+      "sindarinTitle": "Khazad-dûm",
+      "description": "Khazad-dûm was the grandest and most famous of the mansions of the Dwarves. There, for many thousands of years, a thriving Dwarvish community created the greatest city ever known. ",
+      "infoLink": "https://tolkiengateway.net/wiki/Moria",
+      "tags": {
+        "places": [
+          "dwarven"
+        ]
+      },
+      "x": 2492,
+      "y": 1505
+    },
+    {
+      "title": "Grey Havens",
+      "sindarinTitle": "Mithlond",
+      "description": "Founded by the Elves of Lindon in S.A. 1, the Grey Havens were known for their good harbourage and many ships; these were used by any of the Eldar to leave Middle-earth for Eressëa or Valinor.",
+      "infoLink": "https://tolkiengateway.net/wiki/Grey_Havens",
+      "tags": {
+        "places": [
+          "elven"
+        ]
+      },
+      "x": 1047,
+      "y": 1186
+    },
+    {
+      "title": "Lothlórien",
+      "description": "Lothlórien (or Lórien) was a kingdom of Silvan Elves on the eastern side of the Hithaeglir. It was considered one of the most beautiful and \"elvish\" places in Middle-earth during the Third Age, and had the only mallorn-trees east of the sea.",
+      "infoLink": "https://tolkiengateway.net/wiki/Lothlórien",
+      "tags": {
+        "places": [
+          "elven"
+        ]
+      },
+      "x": 2666,
+      "y": 1679
+    },
+    {
+      "title": "Elvenking's Hall",
+      "description": "Elvenking's Hall were a cave system in northern Mirkwood, in which King Thranduil and many of the Elves of Mirkwood lived during most of the Third Age and into the Fourth Age. ",
+      "infoLink": "https://tolkiengateway.net/wiki/Elvenking's_Halls",
+      "tags": {
+        "places": [
+          "elven"
+        ]
+      },
+      "x": 3311,
+      "y": 849
+    },
+    {
+      "title": "Dol Guldur",
+      "description": "Dol Guldur (\"Hill of Sorcery\" in Sindarin), also called \"the dungeons of the Necromancer\", was a stronghold of Sauron located in the south of Mirkwood.",
+      "infoLink": "https://tolkiengateway.net/wiki/Dol_Guldur",
+      "tags": {
+        "places": [
+          "dark"
+        ]
+      },
+      "x": 3014,
+      "y": 1629
+    },
+    {
+      "title": "Minas Morgul",
+      "description": "Minas Morgul (originally called Minas Ithil) was the twin city of Minas Tirith before its fall to the forces of Sauron in the Third Age. It then became the stronghold of the Witch-king of Angmar until Sauron's defeat.",
+      "infoLink": "https://tolkiengateway.net/wiki/Minas_Morgul",
+      "tags": {
+        "places": [
+          "dark"
+        ]
+      },
+      "x": 3424,
+      "y": 2695
+    },
+    {
+      "title": "Paths of the Dead",
+      "description": "The Paths of the Dead was a haunted underground passage through the White Mountains that led from Harrowdale in Rohan to Blackroot Vale in Gondor.",
+      "infoLink": "https://tolkiengateway.net/wiki/Paths_of_the_Dead",
+      "tags": {
+        "places": [
+          "dark"
+        ]
+      },
+      "x": 2605,
+      "y": 2535
+    },
+    {
+      "title": "Mount Gram",
+      "description": "Mount Gram was inhabited by Orcs led by their King Golfimbul. In T.A. 2747 they attacked much of northern Eriador, but were defeated in the Battle of Greenfields.",
+      "infoLink": "https://tolkiengateway.net/wiki/Mount_Gram",
+      "tags": {
+        "places": [
+          "dark"
+        ]
+      },
+      "x": 2353,
+      "y": 746
+    },
+    {
+      "title": "Carn Dûm",
+      "description": "Carn Dûm was the chief fortress of the realm of Angmar and the seat of its king until its defeat against the combined armies of Gondor, Lindon and Arnor in T.A. 1974.",
+      "infoLink": "https://tolkiengateway.net/wiki/Carn_Dûm",
+      "tags": {
+        "places": [
+          "dark"
+        ]
+      },
+      "x": 2115,
+      "y": 523
+    },
+    {
+      "title": "Beorn's Hall",
+      "description": "Beorn's Hall was the home of Beorn, a powerful Skin-changer. Beorn hosted and aided Thorin and Company during their Quest for Erebor",
+      "infoLink": "https://tolkiengateway.net/wiki/Beorn's_Hall",
+      "tags": {
+        "places": [
+          "human"
+        ]
+      },
+      "x": 2871,
+      "y": 1016
+    }
+  ],
+  "events": [
+    {
+      "title": "Battle of Dagorlad",
+      "date": "3434 of the Second Age",
+      "description": "The Battle of Dagorlad was fought between the army of the Last Alliance under Gil-galad and Elendil and an army of Orcs and other creatures loyal to Sauron.",
+      "infoLink": "https://tolkiengateway.net/wiki/Battle_of_Dagorlad",
+      "tags": {
+        "events": [
+          "battle",
+          "last_alliance"
+        ]
+      },
+      "x": 3319,
+      "y": 2356
+    },
+    {
+      "title": "Battle of Isengard",
+      "date": "3 March, T.A. 3019",
+      "description": "Spurred on by Meriadoc Brandybuck and Peregrin Took, the Ents, followed by Huorns, invaded the Ring of Isengard from Fangorn Forest. It led the the drowning of Isengard and the defeat of Saruman.",
+      "infoLink": "https://tolkiengateway.net/wiki/Battle_of_Isengard",
+      "tags": {
+        "events": [
+          "battle",
+          "war_of_the_ring"
+        ]
+      },
+      "x": 2335,
+      "y": 2117
+    },
+    {
+      "title": "Battle of Five Armies",
+      "date": "2941 of the Third Age",
+      "description": "The five warring parties were the Goblins and the Wargs against Men, Elves and Dwarves on and near the Lonely Mountain.",
+      "infoLink": "https://tolkiengateway.net/wiki/Battle_of_Five_Armies",
+      "tags": {
+        "events": [
+          "battle",
+          "thorin"
+        ]
+      },
+      "x": 3405,
+      "y": 825
+    },
+    {
+      "title": "Battle of Pelennor Fields",
+      "date": "15 March, T.A. 3019",
+      "description": "The Battle of the Pelennor Fields was the greatest battle of the War of the Ring. This battle saw the siege of Minas Tirith by Mordor's troops widely outnumbering the defenders, but resulted in the loss of Sauron's armies after the Witch King was killed in combat.",
+      "infoLink": "https://tolkiengateway.net/wiki/Battle_of_the_Pelennor_Fields",
+      "tags": {
+        "events": [
+          "battle",
+          "war_of_the_ring"
+        ]
+      },
+      "x": 3279,
+      "y": 2707
+    },
+    {
+      "title": "Battle of the Morannon",
+      "date": "25 March, T.A. 3019",
+      "description": "The Battle of the Morannon was the last major battle against Sauron in the War of the Ring, fought at the Black Gate of Mordor on 25 March T.A. 3019. The army of the West, 6,000 strong by now, led by Aragorn marched on the gate as a diversionary feint to distract Sauron's attention from Frodo and Sam, who were carrying the One Ring through Mordor. It was hoped that Sauron would think Aragorn had the Ring and was now trying to use it to overthrow Mordor.",
+      "infoLink": "https://tolkiengateway.net/wiki/Battle_of_the_Morannon",
+      "tags": {
+        "events": [
+          "battle",
+          "war_of_the_ring"
+        ]
+      },
+      "x": 3389,
+      "y": 2377
+    },
+    {
+      "title": "Battle of the Hornburg",
+      "date": "3-4 March, T.A. 3019",
+      "description": "The Battle of the Hornburg took place at the mountain fortress of the Hornburg in the valley of Helm's Deep in Rohan. Taking place over the night of the 3-4 March T.A. 3019, it saw the attacking Uruk-hai of Saruman defeated by the Rohirrim led by Théoden and Erkenbrand.",
+      "infoLink": "https://tolkiengateway.net/wiki/Battle_of_the_Hornburg",
+      "tags": {
+        "events": [
+          "battle",
+          "war_of_the_ring"
+        ]
+      },
+      "x": 2423,
+      "y": 2321
+    },
+    {
+      "title": "Boromir",
+      "date": "February 26, T.A. 3019",
+      "description": "Boromir died at Amon Hen, the westernmost of the three peaks at the southern end of Nen Hithoel. He perished trying to defend Merry and Pippin from Saruman's Orcs, slaying at least 20 of them before perishing after being hit by many arrows.",
+      "infoLink": "https://tolkiengateway.net/wiki/Boromir",
+      "tags": {
+        "events": [
+          "death",
+          "war_of_the_ring"
+        ]
+      },
+      "x": 3037,
+      "y": 2377
+    },
+    {
+      "title": "Gandlaf the Grey",
+      "date": "January 25, T.A. 3019",
+      "description": "Gandalf pursued the Balrog from the deepests dungeons of Moria to Durin's Tower, climbing through the whole Endless Stair, where they fought for three days and two nights. In the end, the Balrog was cast down and it broke the mountain-side as it fell. Gandalf himself died following this ordeal, but was later sent back to Middle-earth with even greater powers as Gandalf the White.",
+      "infoLink": "https://tolkiengateway.net/wiki/Battle_of_the_Peak",
+      "tags": {
+        "events": [
+          "death",
+          "war_of_the_ring"
+        ]
+      },
+      "x": 2500,
+      "y": 1558
+    },
+    {
+      "title": "Bilbo stole the Ring from Gollum",
+      "date": "July 12, T.A. 2941",
+      "description": "Bilbo picked up a strange golden ring in the dark passages under Goblin-town. He then met Gollum whom defied him to a riddle contest for his life. Bilbo won, but then Gollum went to get his magic ring to kill him anyway. He then discovered that his ring was missing, and understood that Bilbo took it. He chased Bilbo, but Bilbo unwittingly used the ring and escaped his notice.",
+      "infoLink": "https://tolkiengateway.net/wiki/Bilbo_Baggins#Over_the_Misty_Mountains",
+      "tags": {
+        "events": [
+          "encounter",
+          "thorin"
+        ]
+      },
+      "x": 2685,
+      "y": 962
+    },
+    {
+      "title": "Merry and Pippin meet Treebeard",
+      "date": "February 29, T.A. 3019",
+      "description": "Treebeard discovered Merry and Pippin in Fangorn Forest after they escaped from Saruman's Orcs, and welcomed them to the WellingHall.",
+      "infoLink": "https://tolkiengateway.net/wiki/Treebeard",
+      "tags": {
+        "events": [
+          "encounter",
+          "war_of_the_ring"
+        ]
+      },
+      "x": 2460,
+      "y": 2052
+    },
+    {
+      "title": "Thorin and Company meet Beorn",
+      "date": "Mid July, T.A. 2941",
+      "description": "Treebeard discovered Merry and Pippin in Fangorn Forest after they escaped from Saruman's Orcs, and welcomed them to the WellingHall.",
+      "infoLink": "https://tolkiengateway.net/wiki/Treebeard",
+      "tags": {
+        "events": [
+          "encounter",
+          "thorin"
+        ]
+      },
+      "x": 2460,
+      "y": 2052
+    },
+    {
+      "title": "Tom Bombadil",
+      "date": "September 26, T.A. 3018",
+      "description": "Tom Bombadil, a mysterious creature living in the Dark Forst with his wife Goldberry, saved Frodo, Sam, Merry and Pippin from the Old Man Willow, an evil willow who cast a spell on them and trapped Merry and Pippin. He then hosted the hobbits for two nights, during which he told them many tales and songs.",
+      "infoLink": "https://tolkiengateway.net/wiki/Tom_Bombadil",
+      "tags": {
+        "events": [
+          "encounter",
+          "war_of_the_ring"
+        ]
+      },
+      "x": 1659,
+      "y": 1184
+    }
+  ]
+}
+
+

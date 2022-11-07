@@ -3,6 +3,30 @@ const map = L.map('map', {
     minZoom: -2
 });
 
+const battleIcon = L.icon({
+    iconUrl: 'assets/shield-and-swords.svg',
+
+    iconSize: [30, 30], // size of the icon
+    iconAnchor: [15, 30], // point of the icon which will correspond to marker's location
+    popupAnchor: [0, -30] // point from which the popup should open relative to the iconAnchor
+});
+
+const deathIcon = L.icon({
+    iconUrl: 'assets/death.svg',
+
+    iconSize: [30, 30], // size of the icon
+    iconAnchor: [10, 20], // point of the icon which will correspond to marker's location
+    popupAnchor: [0, -30] // point from which the popup should open relative to the iconAnchor
+});
+
+const encounterIcon = L.icon({
+    iconUrl: 'assets/eye.svg',
+
+    iconSize: [30, 30], // size of the icon
+    iconAnchor: [10, 20], // point of the icon which will correspond to marker's location
+    popupAnchor: [0, -30] // point from which the popup should open relative to the iconAnchor
+});
+
 const bounds = [[0, 0], [4334, 5000]];
 const image = L.imageOverlay('assets/map.webp', bounds).addTo(map);
 
@@ -54,18 +78,18 @@ const renderMarkersFromFilters = (filters) => {
     let isRendered = false;
     let markers = L.layerGroup();
     let marker;
-    for (const m of markersData) {
-        isRendered = false;
-        for (const category of Object.keys(filters)) {
+    for (const category of Object.keys(markersData)) {
+        for (const m of markersData[category]) {
+            isRendered = false;
             for (const filter of filters[category]) {
                 if (m.tags[category]?.includes(filter)) {
                     isRendered = true;
                 }
             }
-        }
-        if (isRendered) {
-            marker = createMarker(map, m);
-            markers.addLayer(marker);
+            if (isRendered) {
+                marker = createMarker(map, m);
+                markers.addLayer(marker);
+            }
         }
     }
     map.addLayer(markers);
@@ -89,11 +113,18 @@ const onFilterChange = (e) => {
 
 const createMarker = (map, data) => {
     const sol = L.latLng([4334 - data.y, data.x]);
-    let marker = L.marker(sol, {
+    let markerOptions = {
         title: data.title,
         alt: data.title,
-        opacity: 0.8
-    })
+    }
+    if (data.tags?.events?.includes('battle')) {
+        markerOptions.icon = battleIcon
+    } else if (data.tags?.events?.includes('death')) {
+        markerOptions.icon = deathIcon
+    } else if (data.tags?.events?.includes('encounter')) {
+        markerOptions.icon = encounterIcon
+    }
+    let marker = L.marker(sol, markerOptions)
     marker.bindPopup(createInfoDialog(data))
     return marker;
 }
