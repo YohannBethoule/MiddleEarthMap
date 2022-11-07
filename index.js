@@ -16,7 +16,7 @@ const deathIcon = L.icon({
 
     iconSize: [30, 30], // size of the icon
     iconAnchor: [10, 20], // point of the icon which will correspond to marker's location
-    popupAnchor: [0, -30] // point from which the popup should open relative to the iconAnchor
+    popupAnchor: [5, -20] // point from which the popup should open relative to the iconAnchor
 });
 
 const encounterIcon = L.icon({
@@ -24,7 +24,7 @@ const encounterIcon = L.icon({
 
     iconSize: [30, 30], // size of the icon
     iconAnchor: [10, 20], // point of the icon which will correspond to marker's location
-    popupAnchor: [0, -30] // point from which the popup should open relative to the iconAnchor
+    popupAnchor: [5, -10] // point from which the popup should open relative to the iconAnchor
 });
 
 const bounds = [[0, 0], [4334, 5000]];

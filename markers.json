@@ -2,7 +2,7 @@
   "places": [
     {
       "title": "Minas Tirith",
-      "description": "Where the big battle went brrrr",
+      "description": "Minas Tirith was originally a fortress, Minas Anor, built in S.A. 3320 by the Faithful Númenóreans. From T.A. 1640 onwards it was the capital of the South-kingdom and the seat of its Kings and ruling Stewards.",
       "infoLink": "https://tolkiengateway.net/wiki/Minas_Tirith",
       "tags": {
         "places": [
@@ -14,10 +14,12 @@
     },
     {
       "title": "Bree",
+      "description": "Bree was the chief village of Bree-land, a small wooded region near the intersection of the main north-south and east-west routes through Eriador. Bree-land was the only part of Middle-earth where Men and hobbits dwelt side by side and Bree had a large population of Hobbits.",
       "infoLink": "https://tolkiengateway.net/wiki/Bree",
       "tags": {
         "places": [
-          "human"
+          "human",
+          "hobbit"
         ]
       },
       "x": 1793,
@@ -25,7 +27,7 @@
     },
     {
       "title": "Erebor",
-      "description": "Attacked by Smaug the dragon",
+      "description": "The Longbeards had control of Erebor since at least the early Second Age. With the awakening of Durin's Bane in the capital of Khazad-dûm, Thráin I led a group of Dwarves to Erebor. Once there, the dwarves dug caves and halls to form an underground city, thus establishing the Kingdom under the Mountain in T.A. 1999.",
       "infoLink": "https://tolkiengateway.net/wiki/Erebor",
       "tags": {
         "places": [
@@ -38,7 +40,7 @@
     {
       "title": "Rivendell",
       "sindarinTitle": "Imladris",
-      "description": "House of Elron",
+      "description": "Rivendell was established by Elrond in S.A. 1697 as a refuge from Sauron after the Fall of Eregion. It remained Elrond's seat throughout the remainder of the Second Age and until the end of the Third Age, when he took the White Ship for Valinor.",
       "infoLink": "https://tolkiengateway.net/wiki/Rivendell",
       "tags": {
         "places": [
@@ -51,7 +53,7 @@
     {
       "title": "Mount Doom",
       "sindarinTitle": "Orodruin, Amon Amarth",
-      "description": "Where the One Ring was forged",
+      "description": "Melkor created Mount Doom in the First Age. When Sauron chose the land of Mordor as his dwelling-place in the Second Age, Orodruin was the reason for his choice. The mountain erupted in S.A. 3429, signalling Sauron's attack on Gondor and it took the name Amon Amarth, \"Mount Doom\". This is where the One Ring was forged by Sauron, and where it was destroyed by Gollum.",
       "infoLink": "https://tolkiengateway.net/wiki/Mount_Doom",
       "tags": {
         "places": [
@@ -63,7 +65,7 @@
     },
     {
       "title": "Osgiliath",
-      "description": "",
+      "description": "Founded by Isildur and Anárion near the end of the Second Age, Osgiliath was designated the capital of the southern Númenórean kingdom in exile, Gondor. It stays so until the King's House was moved to the more secure Minas Anor in T.A. 1640.",
       "infoLink": "https://tolkiengateway.net/wiki/Osgiliath",
       "tags": {
         "places": [
@@ -75,7 +77,7 @@
     },
     {
       "title": "Hobbiton",
-      "description": "",
+      "description": "Hobbiton was a hobbit village in the central regions of the Shire, within the borders of the Westfarthing.",
       "infoLink": "https://tolkiengateway.net/wiki/Hobbiton",
       "tags": {
         "places": [
@@ -87,7 +89,7 @@
     },
     {
       "title": "Helm's Deep",
-      "description": "",
+      "description": "Helm's Deep was a large valley gorge in the north-western Ered Nimrais (White Mountains) below the Thrihyrne. It was actually the name of the whole defensive system including its major defensive structure, the Hornburg.",
       "infoLink": "https://tolkiengateway.net/wiki/Helm's_Deep",
       "tags": {
         "places": [
@@ -100,7 +102,7 @@
     {
       "title": "Black Gate",
       "sindarinTitle": "Morannon",
-      "description": "",
+      "description": "The Black Gate was the main entrance into the land of Mordor. It was built by Sauron after he chose Mordor as a land to make into a stronghold in S.A. 1000.",
       "infoLink": "https://tolkiengateway.net/wiki/Black_Gate",
       "tags": {
         "places": [
@@ -113,7 +115,7 @@
     {
       "title": "Weathertop",
       "sindarinTitle": "Amun Sûl",
-      "description": "",
+      "description": "In T.A.3018, Amun Sûl was the scene of two fights involving the Nazgûl: one with Gandalf on October 3 and one with the Ring-bearer three days later..",
       "infoLink": "https://tolkiengateway.net/wiki/Weathertop",
       "tags": {
         "places": [
@@ -138,7 +140,7 @@
     },
     {
       "title": "Barad-dûr",
-      "description": "",
+      "description": "Barad-dûr, also known as the Dark Tower, was the chief fortress of Sauron, on the Plateau of Gorgoroth in Mordor. Sauron began to build Barad-dûr in around S.A. 1000, and completed his fortress after 600 years of the construction with the power of the Ring. It was partially destroyed after Sauron's defeat against Isildur, and began to be rebuilt in T.A. 2951.",
       "infoLink": "https://tolkiengateway.net/wiki/Barad-dûr",
       "tags": {
         "places": [
@@ -150,7 +152,7 @@
     },
     {
       "title": "Edoras",
-      "description": "",
+      "description": "Edoras was the capital of Rohan that held the Golden Hall of Meduseld. Rohan's first capital was at Aldburg in the Folde, until King Eorl the Young or his son Brego built Edoras in T.A. 2569. ",
       "infoLink": "https://tolkiengateway.net/wiki/Edoras",
       "tags": {
         "places": [
