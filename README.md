@@ -15,7 +15,7 @@ npm install express
 To start the project, open a terminal in the root directory of the projet and run the server:
 
 ```
-node server.js
+node server.cjs
 ```
 
 You can then visit the website at http://localhost:3000/

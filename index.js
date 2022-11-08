@@ -1,34 +1,13 @@
+import mapImage from '/assets/map.webp'
+import {battleIcon, deathIcon, encounterIcon} from "./mapIcons.js";
+
 const map = L.map('map', {
     crs: L.CRS.Simple,
     minZoom: -2
 });
 
-const battleIcon = L.icon({
-    iconUrl: 'assets/shield-and-swords.svg',
-
-    iconSize: [30, 30], // size of the icon
-    iconAnchor: [15, 30], // point of the icon which will correspond to marker's location
-    popupAnchor: [0, -30] // point from which the popup should open relative to the iconAnchor
-});
-
-const deathIcon = L.icon({
-    iconUrl: 'assets/death.svg',
-
-    iconSize: [30, 30], // size of the icon
-    iconAnchor: [10, 20], // point of the icon which will correspond to marker's location
-    popupAnchor: [5, -20] // point from which the popup should open relative to the iconAnchor
-});
-
-const encounterIcon = L.icon({
-    iconUrl: 'assets/eye.svg',
-
-    iconSize: [30, 30], // size of the icon
-    iconAnchor: [10, 20], // point of the icon which will correspond to marker's location
-    popupAnchor: [5, -10] // point from which the popup should open relative to the iconAnchor
-});
-
 const bounds = [[0, 0], [4334, 5000]];
-const image = L.imageOverlay('assets/map.webp', bounds).addTo(map);
+const image = L.imageOverlay(mapImage, bounds).addTo(map);
 
 map.fitBounds(bounds);
 
