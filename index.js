@@ -142,3 +142,16 @@ fetch('./markers.json')
 document.querySelectorAll('#filters input[type=checkbox]').forEach(element => {
     element.addEventListener('change', onFilterChange);
 });
+
+document.getElementById('open-btn').addEventListener('click', () => {
+    document.getElementById('filters-container').classList.add('active');
+
+});
+
+document.getElementById('map').addEventListener('click', () => {
+    document.getElementById('filters-container').classList.remove('active');
+});
+
+document.getElementById('close-btn').addEventListener('click', () => {
+    document.getElementById('filters-container').classList.remove('active');
+});

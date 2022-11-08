@@ -6,8 +6,21 @@
 body {
   width: 100vw;
   height: 100vh;
-  display: flex;
   font-size: 1.5rem;
+}
+
+#open-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 499;
+}
+#open-btn .burger-icon span {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: cornflowerblue;
+  margin: 6px 0;
 }
 
 aside {
@@ -15,6 +28,27 @@ aside {
   flex-direction: column;
   flex-grow: 1;
   align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 500;
+  background: rgba(100, 149, 237, 0.9);
+  padding: 1rem;
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+}
+aside.active {
+  transform: translateY(0%);
+}
+aside #close-btn {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 0.6rem;
+  right: 1rem;
+  font-size: 3rem;
+  font-family: Arial;
+  font-weight: bold;
 }
 aside #main-title {
   font-size: 3rem;
@@ -26,6 +60,7 @@ aside #filters {
 }
 aside #filters fieldset {
   display: flex;
+  flex-wrap: wrap;
   margin: 1rem;
   align-items: center;
   padding: 1rem 2rem;
@@ -35,14 +70,16 @@ aside #filters fieldset legend {
   font-size: 1.8rem;
   margin-right: 2rem;
 }
-aside footer {
+footer {
   position: absolute;
   bottom: 10px;
 }
 
 .leaflet-container {
   height: 100vh;
-  width: 50vw;
+  width: 100vw;
+  position: absolute;
+  background: black;
 }
 
 .leaflet-popup {

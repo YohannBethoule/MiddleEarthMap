@@ -5,16 +5,52 @@
 body {
     width: 100vw;
     height: 100vh;
-    display: flex;
     font-size: 1.5rem;
+}
+
+#open-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 499;
+
+    .burger-icon span {
+        display: block;
+        width: 35px;
+        height: 5px;
+        background-color: cornflowerblue;
+        margin: 6px 0;
+    }
 }
 
 aside {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    //justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 500;
+    background: rgba(100, 149, 237, 0.9);
+    padding: 1rem;
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+
+    &.active {
+        transform: translateY(0%);
+    }
+
+    #close-btn {
+        text-decoration: none;
+        color: black;
+        position: absolute;
+        top: 0.6rem;
+        right: 1rem;
+        font-size: 3rem;
+        font-family: Arial;
+        font-weight: bold;
+    }
 
     #main-title {
         font-size: 3rem;
@@ -27,6 +63,7 @@ aside {
 
         fieldset {
             display: flex;
+            flex-wrap: wrap;
             margin: 1rem;
             align-items: center;
             padding: 1rem 2rem;
@@ -42,19 +79,20 @@ aside {
             }
         }
     }
+}
 
-    footer {
-        position: absolute;
-        bottom: 10px;
-    }
+footer {
+    position: absolute;
+    bottom: 10px;
 }
 
 .leaflet-container {
     height: 100vh;
-    width: 50vw;
+    width: 100vw;
+    position: absolute;
+    background: black;
     //aspect-ratio: 5000/4344;
 }
-
 
 .leaflet-popup {
     min-width: 200px;
@@ -105,3 +143,5 @@ aside {
         }
     }
 }
+
+
