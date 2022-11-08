@@ -1,6 +1,6 @@
-import battleImg from '/assets/shield-and-swords.svg'
-import deathImg from '/assets/death.svg'
-import encounterImg from '/assets/eye.svg'
+import battleImg from './assets/shield-and-swords.svg'
+import deathImg from './assets/death.svg'
+import encounterImg from './assets/eye.svg'
 
 export const battleIcon = L.icon({
     iconUrl: battleImg,

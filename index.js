@@ -1,4 +1,5 @@
-import mapImage from '/assets/map.webp'
+import mapImage from '/assets/map.webp';
+import markersData from './markers.json';
 import {battleIcon, deathIcon, encounterIcon} from "./mapIcons.js";
 
 const map = L.map('map', {
@@ -10,8 +11,6 @@ const bounds = [[0, 0], [4334, 5000]];
 const image = L.imageOverlay(mapImage, bounds).addTo(map);
 
 map.fitBounds(bounds);
-
-let markersData = [];
 
 const createInfoDialog = (data) => {
     let info = ``;
@@ -111,13 +110,6 @@ const createMarker = (map, data) => {
     return marker;
 }
 
-fetch('./markers.json')
-    .then((response) => response.json())
-    .then((data) => {
-        markersData = data;
-        renderMarkersFromFilters(getFilters());
-    });
-
 document.querySelectorAll('#filters input[type=checkbox]').forEach(element => {
     element.addEventListener('change', onFilterChange);
 });
@@ -134,3 +126,5 @@ document.getElementById('map').addEventListener('click', () => {
 document.getElementById('close-btn').addEventListener('click', () => {
     document.getElementById('filters-container').classList.remove('active');
 });
+
+renderMarkersFromFilters(getFilters());
