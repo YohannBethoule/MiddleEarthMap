@@ -1,6 +1,6 @@
 import mapImage from '/assets/map.webp';
 import markersData from './markers.json';
-import {battleIcon, deathIcon, encounterIcon} from "./mapIcons.js";
+import {battleIcon, darkIcon, deathIcon, dwarfIcon, elfIcon, encounterIcon, hobbitIcon, humanIcon} from "./mapIcons.js";
 
 const map = L.map('map', {
     crs: L.CRS.Simple,
@@ -67,9 +67,15 @@ const renderMarkersFromFilters = (filters) => {
             }
             if (isRendered) {
                 marker = createMarker(map, m);
-                marker.addTo(map).addEventListener('mouseover', function () {
-                    this.bounce(1)
-                });
+                marker
+                    .setBouncingOptions({
+                        elastic: false,
+                        bounceHeight: 8
+                    })
+                    .addTo(map)
+                    .addEventListener('mouseover', function () {
+                        this.bounce(1)
+                    });
             }
         }
     }
@@ -103,6 +109,16 @@ const createMarker = (map, data) => {
         markerOptions.icon = deathIcon
     } else if (data.tags?.events?.includes('encounter')) {
         markerOptions.icon = encounterIcon
+    } else if (data.tags?.places?.includes('hobbit')) {
+        markerOptions.icon = hobbitIcon
+    } else if (data.tags?.places?.includes('dwarven')) {
+        markerOptions.icon = dwarfIcon
+    } else if (data.tags?.places?.includes('elven')) {
+        markerOptions.icon = elfIcon
+    } else if (data.tags?.places?.includes('human')) {
+        markerOptions.icon = humanIcon
+    } else if (data.tags?.places?.includes('dark')) {
+        markerOptions.icon = darkIcon
     }
     return L.marker(sol, markerOptions).bindPopup(createInfoDialog(data));
 }

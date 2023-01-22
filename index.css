@@ -45,24 +45,24 @@ aside.active {
   transform: translateY(0%);
 }
 aside #close-btn {
-  text-decoration: none;
-  color: black;
-  position: absolute;
-  top: 0.6rem;
-  right: 1rem;
-  font-size: 3rem;
-  font-family: Arial;
-  font-weight: bold;
-  opacity: 1;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 0.6rem;
+    right: 1rem;
+    font-size: 3rem;
+    font-family: Arial, serif;
+    font-weight: bold;
+    opacity: 1;
 }
 aside #close-btn:hover {
   text-decoration: underline;
   opacity: 0.5;
 }
 aside #main-title {
-  font-size: 3rem;
-  margin: 1rem;
-  font-family: RingBearer;
+    font-size: 3rem;
+    margin: 1rem;
+    font-family: RingBearer, serif;
 }
 aside #filters fieldset {
   display: flex;
@@ -80,28 +80,43 @@ aside #filters fieldset legend {
 
 footer {
   position: absolute;
-  bottom: 10px;
+    bottom: 10px;
 }
 
 .leaflet-container {
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  background: black;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background: black;
+}
+
+.default-icon {
+    background-color: #583470;
+}
+
+.default-icon.human {
+    background-color: #3ba800;
+}
+
+.default-icon.elven {
+    background-color: #0078A8;
+}
+
+.default-icon.hobbit {
+    background-color: #a84c00;
 }
 
 .leaflet-marker-icon:hover {
-  opacity: 0.7 !important;
+    opacity: 0.7 !important;
 }
 
 .leaflet-popup {
-  min-width: 200px;
+    min-width: 200px;
 }
 
 .leaflet-popup .leaflet-popup-close-button {
-  margin: 1rem;
+    margin: 1rem;
 }
-
 .leaflet-popup .leaflet-popup-close-button span {
   font-size: 2rem;
 }

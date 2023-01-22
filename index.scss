@@ -54,7 +54,7 @@ aside {
         top: 0.6rem;
         right: 1rem;
         font-size: 3rem;
-        font-family: Arial;
+        font-family: Arial, serif;
         font-weight: bold;
         opacity: 1;
 
@@ -67,7 +67,7 @@ aside {
     #main-title {
         font-size: 3rem;
         margin: 1rem;
-        font-family: RingBearer;
+        font-family: RingBearer, serif;
     }
 
     #filters {
@@ -98,6 +98,22 @@ footer {
     width: 100vw;
     position: absolute;
     background: black;
+}
+
+.default-icon {
+    background-color: #583470;
+
+    &.human {
+        background-color: #3ba800;
+    }
+
+    &.elven {
+        background-color: #0078A8;
+    }
+
+    &.hobbit {
+        background-color: #a84c00;
+    }
 }
 
 .leaflet-marker-icon:hover {
