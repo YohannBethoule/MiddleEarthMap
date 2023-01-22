@@ -11,9 +11,5 @@
   "devDependencies": {
     "sass": "^1.56.0",
     "vite": "^3.2.3"
-  },
-  "dependencies": {
-    "leaflet": "^1.9.3",
-    "leaflet.smooth_marker_bouncing": "^3.0.2"
   }
 }
