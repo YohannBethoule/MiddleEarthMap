@@ -12,7 +12,7 @@
 </head>
 <body>
 <a href="#" id="open-btn">
-    <img alt="open filters" src="assets/layers.svg" width="40">
+    <img alt="open filters" src="assets/layers.svg">
 </a>
 <main id="map">
 </main>
@@ -94,6 +94,21 @@
                 <input data-category="events" data-filter="thorin" id="thorin-events" name="thorin-events"
                        type="checkbox">
                 <label for="thorin-events">Quest for Erebor</label>
+            </div>
+        </fieldset>
+
+        <fieldset id="filters-paths">
+            <legend>Paths</legend>
+
+            <div>
+                <input data-category="paths" data-filter="all" id="all-paths" name="all-paths" type="checkbox">
+                <label for="all-paths">All</label>
+            </div>
+
+            <div>
+                <input data-category="paths" data-filter="gandalf" id="gandalf-path" name="gandalf-path"
+                       type="checkbox">
+                <label for="gandalf-path">Gandalf</label>
             </div>
         </fieldset>
     </section>

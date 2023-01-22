@@ -1,11 +1,18 @@
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
-
 @import "styles/fonts";
+
+$breakpoints: (phone: 640px,
+        tablet: 768px,
+        desktop: 1024px) !default;
 
 body {
     width: 100vw;
     height: 100vh;
-    font-size: 1.5rem;
+    font-size: 40px;
+
+    @media (min-width: 1000px) {
+        font-size: 30px;
+    }
 }
 
 #open-btn {
@@ -13,13 +20,11 @@ body {
     top: 1rem;
     right: 1rem;
     z-index: 499;
+    width: 10vw;
+    max-width: 80px;
 
-    .burger-icon span {
-        display: block;
-        width: 35px;
-        height: 5px;
-        background-color: cornflowerblue;
-        margin: 6px 0;
+    &:hover {
+        opacity: 0.7;
     }
 }
 
@@ -32,10 +37,11 @@ aside {
     top: 0;
     right: 0;
     z-index: 500;
-    background: rgba(100, 149, 237, 0.9);
-    padding: 1rem;
+    background: rgba(100, 149, 237);
+    padding: 1em 2em;
     transform: translateY(-100%);
     transition: all 0.3s ease-in-out;
+    width: 100vw;
 
     &.active {
         transform: translateY(0%);
@@ -50,6 +56,12 @@ aside {
         font-size: 3rem;
         font-family: Arial;
         font-weight: bold;
+        opacity: 1;
+
+        &:hover {
+            text-decoration: underline;
+            opacity: 0.5;
+        }
     }
 
     #main-title {
@@ -59,23 +71,18 @@ aside {
     }
 
     #filters {
-        margin-right: auto;
-
         fieldset {
             display: flex;
             flex-wrap: wrap;
-            margin: 1rem;
+            margin: 2rem;
             align-items: center;
             padding: 1rem 2rem;
             gap: 1rem;
 
             legend {
-                font-size: 1.8rem;
+                font-size: 2rem;
                 margin-right: 2rem;
-            }
-
-            checkbox {
-
+                font-weight: bold;
             }
         }
     }
@@ -91,7 +98,6 @@ footer {
     width: 100vw;
     position: absolute;
     background: black;
-    //aspect-ratio: 5000/4344;
 }
 
 .leaflet-popup {
