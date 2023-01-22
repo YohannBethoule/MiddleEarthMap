@@ -8,8 +8,7 @@ const map = L.map('map', {
 });
 
 const bounds = [[0, 0], [4334, 5000]];
-const image = L.imageOverlay(mapImage, bounds).addTo(map);
-
+L.imageOverlay(mapImage, bounds).addTo(map);
 map.fitBounds(bounds);
 
 const createInfoDialog = (data) => {
@@ -57,7 +56,6 @@ const clearMarkers = () => {
 const renderMarkersFromFilters = (filters) => {
     clearMarkers();
     let isRendered = false;
-    let markers = L.layerGroup();
     let marker;
     for (const category of Object.keys(markersData)) {
         for (const m of markersData[category]) {
@@ -69,11 +67,12 @@ const renderMarkersFromFilters = (filters) => {
             }
             if (isRendered) {
                 marker = createMarker(map, m);
-                markers.addLayer(marker);
+                marker.addTo(map).addEventListener('mouseover', function () {
+                    this.bounce(1)
+                });
             }
         }
     }
-    map.addLayer(markers);
 }
 
 const onFilterChange = (e) => {
@@ -105,9 +104,7 @@ const createMarker = (map, data) => {
     } else if (data.tags?.events?.includes('encounter')) {
         markerOptions.icon = encounterIcon
     }
-    let marker = L.marker(sol, markerOptions)
-    marker.bindPopup(createInfoDialog(data))
-    return marker;
+    return L.marker(sol, markerOptions).bindPopup(createInfoDialog(data));
 }
 
 document.querySelectorAll('#filters input[type=checkbox]').forEach(element => {

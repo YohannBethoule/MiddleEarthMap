@@ -3,13 +3,11 @@
   font-family: RingBearer;
   src: url("./assets/fonts/RingbearerMedium.ttf");
 }
-
 body {
   width: 100vw;
   height: 100vh;
   font-size: 40px;
 }
-
 @media (min-width: 1000px) {
   body {
     font-size: 30px;
@@ -24,7 +22,6 @@ body {
   width: 10vw;
   max-width: 80px;
 }
-
 #open-btn:hover {
   opacity: 0.7;
 }
@@ -47,7 +44,6 @@ aside {
 aside.active {
   transform: translateY(0%);
 }
-
 aside #close-btn {
   text-decoration: none;
   color: black;
@@ -59,18 +55,15 @@ aside #close-btn {
   font-weight: bold;
   opacity: 1;
 }
-
 aside #close-btn:hover {
   text-decoration: underline;
   opacity: 0.5;
 }
-
 aside #main-title {
   font-size: 3rem;
   margin: 1rem;
   font-family: RingBearer;
 }
-
 aside #filters fieldset {
   display: flex;
   flex-wrap: wrap;
@@ -97,12 +90,18 @@ footer {
   background: black;
 }
 
+.leaflet-marker-icon:hover {
+  opacity: 0.7 !important;
+}
+
 .leaflet-popup {
   min-width: 200px;
 }
+
 .leaflet-popup .leaflet-popup-close-button {
   margin: 1rem;
 }
+
 .leaflet-popup .leaflet-popup-close-button span {
   font-size: 2rem;
 }
