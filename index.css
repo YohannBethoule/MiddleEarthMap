@@ -3,14 +3,17 @@
   font-family: RingBearer;
   src: url("./assets/fonts/RingbearerMedium.ttf");
 }
-body {
+
+html, body {
   width: 100vw;
   height: 100vh;
-  font-size: 40px;
+  font-size: 30px;
+  font-family: "Lora", serif;
 }
+
 @media (min-width: 1000px) {
-  body {
-    font-size: 30px;
+  html, body {
+    font-size: 20px;
   }
 }
 
@@ -19,8 +22,7 @@ body {
   top: 1rem;
   right: 1rem;
   z-index: 499;
-  width: 10vw;
-  max-width: 80px;
+  width: 3rem;
 }
 #open-btn:hover {
   opacity: 0.7;
@@ -45,93 +47,119 @@ aside.active {
   transform: translateY(0%);
 }
 aside #close-btn {
-    text-decoration: none;
-    color: black;
-    position: absolute;
-    top: 0.6rem;
-    right: 1rem;
-    font-size: 3rem;
-    font-family: Arial, serif;
-    font-weight: bold;
-    opacity: 1;
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 0.6rem;
+  right: 1rem;
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  opacity: 1;
 }
 aside #close-btn:hover {
   text-decoration: underline;
   opacity: 0.5;
 }
 aside #main-title {
-    font-size: 3rem;
-    margin: 1rem;
-    font-family: RingBearer, serif;
+  font-size: 2rem;
+  margin: 1rem;
+  font-family: RingBearer, serif;
+  text-align: center;
 }
 aside #filters fieldset {
   display: flex;
   flex-wrap: wrap;
-  margin: 2rem;
+  margin: 1rem;
   align-items: center;
-  padding: 1rem 2rem;
-  gap: 1rem;
+  padding: 0.6rem 2rem;
+  gap: 0.5rem 1rem;
 }
 aside #filters fieldset legend {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-right: 2rem;
   font-weight: bold;
 }
 
 footer {
   position: absolute;
-    bottom: 10px;
+  bottom: 10px;
 }
 
-.leaflet-container {
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    background: black;
+main.leaflet-container {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background: black;
+  font-family: "Lora", serif;
 }
 
 .default-icon {
-    background-color: #583470;
+  background-color: #583470;
 }
-
 .default-icon.human {
-    background-color: #3ba800;
+  background-color: #3ba800;
 }
-
 .default-icon.elven {
-    background-color: #0078A8;
+  background-color: #0078A8;
+}
+.default-icon.hobbit {
+  background-color: #a84c00;
 }
 
-.default-icon.hobbit {
-    background-color: #a84c00;
+.leaflet-marker-icon {
+  width: 1.8rem !important;
+  height: 1.8rem !important;
 }
 
 .leaflet-marker-icon:hover {
-    opacity: 0.7 !important;
+  opacity: 0.7 !important;
 }
 
 .leaflet-popup {
-    min-width: 200px;
+  width: 90vw;
+}
+
+@media (min-width: 1000px) {
+  .leaflet-popup {
+    width: 50vw;
+  }
 }
 
 .leaflet-popup .leaflet-popup-close-button {
-    margin: 1rem;
+  margin: 1rem 2rem;
 }
+
 .leaflet-popup .leaflet-popup-close-button span {
   font-size: 2rem;
 }
+
+.leaflet-popup .leaflet-popup-close-button:hover {
+  text-decoration: underline;
+}
+
 .leaflet-popup .leaflet-popup-content {
-  padding: 10px;
+  padding: 1rem 2rem;
+  width: auto !important;
 }
 .leaflet-popup .title {
   font-weight: bold;
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #cecece;
+  padding-bottom: 1rem;
 }
+
 .leaflet-popup .date {
   font-weight: bold;
   font-size: 1rem;
 }
+
+.leaflet-popup .description {
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
 .leaflet-popup .info-link-container {
   margin-top: 1rem;
   display: flex;
@@ -140,13 +168,14 @@ footer {
 .leaflet-popup a.info-link {
   border: 1px solid black;
   background-color: rgba(0, 0, 0, 0.78);
-  padding: 10px;
+  padding: 0.6rem;
   text-decoration: none;
   color: white;
 }
 .leaflet-popup a.info-link:hover {
   opacity: 0.9;
   color: aliceblue;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=index.css.map */

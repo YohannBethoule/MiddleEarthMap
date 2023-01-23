@@ -5,13 +5,14 @@ $breakpoints: (phone: 640px,
         tablet: 768px,
         desktop: 1024px) !default;
 
-body {
+html, body {
     width: 100vw;
     height: 100vh;
-    font-size: 40px;
+    font-size: 30px;
+    font-family: "Lora", serif;
 
     @media (min-width: 1000px) {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 
@@ -20,8 +21,7 @@ body {
     top: 1rem;
     right: 1rem;
     z-index: 499;
-    width: 10vw;
-    max-width: 80px;
+    width: 3rem;
 
     &:hover {
         opacity: 0.7;
@@ -53,8 +53,9 @@ aside {
         position: absolute;
         top: 0.6rem;
         right: 1rem;
-        font-size: 3rem;
-        font-family: Arial, serif;
+        font-size: 2rem;
+        font-family: Arial, sans-serif;
+
         font-weight: bold;
         opacity: 1;
 
@@ -65,22 +66,23 @@ aside {
     }
 
     #main-title {
-        font-size: 3rem;
+        font-size: 2rem;
         margin: 1rem;
         font-family: RingBearer, serif;
+        text-align: center;
     }
 
     #filters {
         fieldset {
             display: flex;
             flex-wrap: wrap;
-            margin: 2rem;
+            margin: 1rem;
             align-items: center;
-            padding: 1rem 2rem;
-            gap: 1rem;
+            padding: .6rem 2rem;
+            gap: .5rem 1rem;
 
             legend {
-                font-size: 2rem;
+                font-size: 1.5rem;
                 margin-right: 2rem;
                 font-weight: bold;
             }
@@ -93,11 +95,12 @@ footer {
     bottom: 10px;
 }
 
-.leaflet-container {
+main.leaflet-container {
     height: 100vh;
     width: 100vw;
     position: absolute;
     background: black;
+    font-family: "Lora", serif;
 }
 
 .default-icon {
@@ -116,29 +119,45 @@ footer {
     }
 }
 
-.leaflet-marker-icon:hover {
-    opacity: 0.7 !important;
+.leaflet-marker-icon {
+    width: 1.8rem !important;
+    height: 1.8rem !important;
+
+    &:hover {
+        opacity: 0.7 !important;
+    }
 }
 
 .leaflet-popup {
-    min-width: 200px;
+    width: 90vw;
+
+    @media (min-width: 1000px) {
+        width: 50vw;
+    }
 
     .leaflet-popup-close-button {
-        margin: 1rem;
+        margin: 1rem 2rem;
 
         span {
             font-size: 2rem;
         }
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 
     .leaflet-popup-content {
-        padding: 10px;
+        padding: 1rem 2rem;
+        width: auto !important;
     }
 
     .title {
         font-weight: bold;
-        font-size: 1.2rem;
-        margin-bottom: 0.5rem;
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid #cecece;
+        padding-bottom: 1rem;
     }
 
     .date {
@@ -147,7 +166,8 @@ footer {
     }
 
     .description {
-
+        font-size: 1rem;
+        line-height: 1.4rem;
     }
 
     .info-link-container {
@@ -158,14 +178,15 @@ footer {
 
     a.info-link {
         border: 1px solid black;
-        background-color: rgba(0,0,0,0.78);
-        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.78);
+        padding: .6rem;
         text-decoration: none;
         color: white;
 
         &:hover {
             opacity: 0.9;
             color: aliceblue;
+            text-decoration: underline;
         }
     }
 }
