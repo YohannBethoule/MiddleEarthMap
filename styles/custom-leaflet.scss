@@ -1,0 +1,34 @@
+@import "custom-leaflet-popup";
+
+main.leaflet-container {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background: black;
+  font-family: "Lora", serif;
+}
+
+.default-icon {
+  background-color: #583470;
+
+  &.human {
+    background-color: #3ba800;
+  }
+
+  &.elven {
+    background-color: #0078A8;
+  }
+
+  &.hobbit {
+    background-color: #a84c00;
+  }
+}
+
+.leaflet-marker-icon {
+  width: 1.8rem !important;
+  height: 1.8rem !important;
+
+  &:hover {
+    opacity: 0.7 !important;
+  }
+}

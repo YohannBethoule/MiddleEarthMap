@@ -1,0 +1,93 @@
+.leaflet-popup {
+  width: 30rem;
+}
+
+.leaflet-popup .leaflet-popup-close-button {
+  margin: 1rem 2rem;
+}
+
+.leaflet-popup .leaflet-popup-close-button span {
+  font-size: 2rem;
+}
+
+.leaflet-popup .leaflet-popup-close-button:hover {
+  text-decoration: underline;
+}
+
+.leaflet-popup .leaflet-popup-content {
+  padding: 1rem 2rem;
+  width: auto !important;
+}
+
+.leaflet-popup .title {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #cecece;
+  padding-bottom: 1rem;
+}
+
+.leaflet-popup .date {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.leaflet-popup .description {
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.leaflet-popup .info-link-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.leaflet-popup a.info-link {
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.78);
+  padding: 0.6rem;
+  text-decoration: none;
+  color: white;
+}
+
+.leaflet-popup a.info-link:hover {
+  opacity: 0.9;
+  color: aliceblue;
+  text-decoration: underline;
+}
+
+main.leaflet-container {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background: black;
+  font-family: "Lora", serif;
+}
+
+.default-icon {
+  background-color: #583470;
+}
+
+.default-icon.human {
+  background-color: #3ba800;
+}
+
+.default-icon.elven {
+  background-color: #0078A8;
+}
+
+.default-icon.hobbit {
+  background-color: #a84c00;
+}
+
+.leaflet-marker-icon {
+  width: 1.8rem !important;
+  height: 1.8rem !important;
+}
+
+.leaflet-marker-icon:hover {
+  opacity: 0.7 !important;
+}
+
+/*# sourceMappingURL=custom-leaflet.css.map */
