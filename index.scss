@@ -2,35 +2,39 @@
 @import "styles/fonts";
 @import "styles/filters";
 @import "styles/custom-leaflet";
+@import "styles/constants";
 
 html, body {
-    width: 100vw;
-    height: 100vh;
-    font-size: 30px;
-    font-family: "Lora", serif;
+  width: 100vw;
+  height: 100vh;
+  font-size: 30px;
+  font-family: "Lora", serif;
+  overflow: hidden;
 
-    @media (min-width: 800px) {
-        font-size: 20px;
-    }
+  @media (min-width: $br-mobile) {
+    font-size: 20px;
+  }
+}
+
+body {
+  position: relative;
 }
 
 #open-btn {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    z-index: 499;
-    width: 3rem;
+  position: absolute;
+  top: 0;
+  right: .5rem;
+  z-index: 499;
+  width: 3rem;
 
-    &:hover {
-        opacity: 0.7;
-    }
+  &:hover {
+    opacity: 0.7;
+  }
 }
 
-footer {
-    position: absolute;
-    bottom: 10px;
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
-
-
-
-

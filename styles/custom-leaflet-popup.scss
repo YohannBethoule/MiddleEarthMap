@@ -1,6 +1,13 @@
+@import "constants";
+
 
 .leaflet-popup {
   width: 30rem;
+
+
+  .leaflet-popup-content-wrapper {
+    background: $primary-color;
+  }
 
   .leaflet-popup-close-button {
     margin: 1rem 2rem;

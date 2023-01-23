@@ -17,10 +17,14 @@
 <main id="map">
 </main>
 <aside id="filters-container">
-    <a href="#" id="close-btn">x</a>
-    <h1 id="main-title">Middle-Earth interactive map</h1>
-    <section id="site-description">This is an interactive map of Middle-Earth during the Third Age.</section>
+    <!--    <a href="#" id="close-btn">x</a>-->
+    <span class="material-symbols-outlined" id="close-btn">
+        <img src="assets/close.svg">
+    </span>
     <section id="filters">
+        <h1 id="main-title">Middle-Earth interactive map</h1>
+        <div id="site-description">Discover Middle-Earth during the Third Age</div>
+
         <fieldset id="filters-places">
             <legend>Places</legend>
 
@@ -111,9 +115,14 @@
         <!--                <label for="gandalf-path">Gandalf</label>-->
         <!--            </div>-->
         <!--        </fieldset>-->
+        <footer>Created by <a href="https://yohannbethoule.com" rel="noopener norefferer" target="_blank">Yohann
+            Bethoule</a>, 2022
+        </footer>
     </section>
+
+
 </aside>
-<footer>Created by Yohann Bethoule, 2022</footer>
+
 <script src="index.js" type="module"></script>
 </body>
 </html>
