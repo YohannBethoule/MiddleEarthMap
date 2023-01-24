@@ -2,8 +2,8 @@
 
 
 .leaflet-popup {
-  width: 30rem;
-
+  width: 90vw;
+  max-width: 30rem;
 
   .leaflet-popup-content-wrapper {
     background: $primary-color;

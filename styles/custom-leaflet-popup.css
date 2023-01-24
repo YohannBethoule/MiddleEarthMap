@@ -1,11 +1,10 @@
 .leaflet-popup {
-    width: 30rem;
+    width: 90vw;
+    max-width: 30rem;
 }
-
 .leaflet-popup .leaflet-popup-content-wrapper {
     background: #F9F4ED;
 }
-
 .leaflet-popup .leaflet-popup-close-button {
     margin: 1rem 2rem;
 }

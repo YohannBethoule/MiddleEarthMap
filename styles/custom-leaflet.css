@@ -1,13 +1,12 @@
 .leaflet-popup {
-    width: 30rem;
+  width: 90vw;
+  max-width: 30rem;
 }
-
 .leaflet-popup .leaflet-popup-content-wrapper {
-    background: #F9F4ED;
+  background: #F9F4ED;
 }
-
 .leaflet-popup .leaflet-popup-close-button {
-    margin: 1rem 2rem;
+  margin: 1rem 2rem;
 }
 .leaflet-popup .leaflet-popup-close-button span {
   font-size: 2rem;
@@ -53,11 +52,11 @@
 }
 
 main.leaflet-container {
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    background: rgb(32, 32, 32);
-    font-family: "Lora", serif;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background: rgb(32, 32, 32);
+  font-family: "Lora", serif;
 }
 
 .default-icon {
