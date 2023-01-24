@@ -9,7 +9,7 @@ aside {
   z-index: 500;
   background: #F9F4ED;
   padding: 1em 0;
-  transform: translateX(100%);
+  transform: translateX(105%);
   transition: all 0.3s ease-in-out;
   height: 100vh;
   width: 100vw;
