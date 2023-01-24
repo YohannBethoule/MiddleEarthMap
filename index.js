@@ -1,5 +1,5 @@
-import mapImage from '/assets/map.webp';
-import markersData from './markers.json';
+import mapImage from '/assets/icons/map.webp';
+import markersData from './assets/data/markers.json';
 import {battleIcon, darkIcon, deathIcon, dwarfIcon, elfIcon, encounterIcon, hobbitIcon, humanIcon} from "./mapIcons.js";
 
 const map = L.map('map', {

@@ -1,11 +1,11 @@
-import battleImg from './assets/swords.svg'
-import deathImg from './assets/coffin.svg'
-import encounterImg from './assets/eye.svg'
-import hobbitImg from './assets/hobbit.svg'
-import dwarfImg from './assets/dwarf.svg'
-import elfImg from './assets/elf.svg'
-import humanImg from './assets/castle.svg'
-import darkImg from './assets/evil.svg'
+import battleImg from './assets/icons/swords.svg'
+import deathImg from './assets/icons/coffin.svg'
+import encounterImg from './assets/icons/eye.svg'
+import hobbitImg from './assets/icons/hobbit.svg'
+import dwarfImg from './assets/icons/dwarf.svg'
+import elfImg from './assets/icons/elf.svg'
+import humanImg from './assets/icons/castle.svg'
+import darkImg from './assets/icons/evil.svg'
 
 export const battleIcon = L.icon({
     iconUrl: battleImg,
