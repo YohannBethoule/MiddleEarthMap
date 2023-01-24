@@ -132,10 +132,6 @@ document.getElementById('open-btn').addEventListener('click', () => {
 
 });
 
-document.getElementById('map').addEventListener('click', () => {
-    document.getElementById('filters-container').classList.remove('active');
-});
-
 document.getElementById('close-btn').addEventListener('click', () => {
     document.getElementById('filters-container').classList.remove('active');
 });
