@@ -50,8 +50,8 @@ I am open to any ideas to make this app even cooler, feel free to contact me if 
 
 # 🤝 Credits
 
-This project is open to anyone who wants to help ! Feel free to fork and pull request or to mail me at *
-*yohann.bethoule@gmail.com**.
+This project is open to anyone who wants to help ! Feel free to fork and pull request or to mail me at
+**yohann.bethoule@gmail.com**.
 
 Thanks and support to Leaflet team in Ukraine.
 
