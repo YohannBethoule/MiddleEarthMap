@@ -4,6 +4,7 @@
 .leaflet-popup {
   width: 90vw;
   max-width: 30rem;
+  z-index: 420;
 
   .leaflet-popup-content-wrapper {
     background: $primary-color;
@@ -22,8 +23,12 @@
   }
 
   .leaflet-popup-content {
-    padding: 1rem 2rem;
+    padding: 1rem;
     width: auto !important;
+
+    @media (min-width: $br-mobile) {
+      padding: 1rem 2rem;
+    }
   }
 
   .title {

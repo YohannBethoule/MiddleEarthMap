@@ -7,65 +7,70 @@ import elfImg from './assets/icons/elf.svg'
 import humanImg from './assets/icons/castle.svg'
 import darkImg from './assets/icons/evil.svg'
 
+const iconSize = [30, 30];
+const iconAnchor = [15, 30];
+const popupAnchor = [3, -27];
+
 export const battleIcon = L.icon({
     iconUrl: battleImg,
 
-    iconSize: [30, 30], // size of the icon
-    iconAnchor: [15, 30], // point of the icon which will correspond to marker's location
-    popupAnchor: [0, -30] // point from which the popup should open relative to the iconAnchor
+    iconSize: iconSize, // size of the icon
+    iconAnchor: iconAnchor, // point of the icon which will correspond to marker's location
+    popupAnchor: popupAnchor, // point from which the popup should open relative to the iconAnchor
+    autoPanPaddingTopLeft: L.Point(1000, 1000)
 });
 
 export const deathIcon = L.icon({
     iconUrl: deathImg,
-    iconSize: [30, 30],
-    iconAnchor: [10, 20],
-    popupAnchor: [5, -20]
+    iconSize: iconSize,
+    iconAnchor: iconAnchor,
+    popupAnchor: popupAnchor
 });
 
 export const encounterIcon = L.icon({
     iconUrl: encounterImg,
 
-    iconSize: [30, 30],
-    iconAnchor: [10, 20],
-    popupAnchor: [5, -10]
+    iconSize: iconSize,
+    iconAnchor: iconAnchor,
+    popupAnchor: popupAnchor
 });
 
 export const hobbitIcon = L.icon({
     iconUrl: hobbitImg,
 
-    iconSize: [30, 30],
-    iconAnchor: [10, 20],
-    popupAnchor: [5, -10]
+    iconSize: iconSize,
+    iconAnchor: iconAnchor,
+    popupAnchor: popupAnchor
 });
 
 export const dwarfIcon = L.icon({
     iconUrl: dwarfImg,
 
-    iconSize: [30, 30],
-    iconAnchor: [10, 20],
-    popupAnchor: [5, -10]
+    iconSize: iconSize,
+    iconAnchor: iconAnchor,
+    popupAnchor: popupAnchor
 });
 
 export const elfIcon = L.icon({
     iconUrl: elfImg,
 
-    iconSize: [30, 30],
-    iconAnchor: [10, 20],
-    popupAnchor: [5, -10]
+    iconSize: iconSize,
+    iconAnchor: iconAnchor,
+    popupAnchor: popupAnchor
 });
 
 export const humanIcon = L.icon({
     iconUrl: humanImg,
 
-    iconSize: [30, 30],
-    iconAnchor: [10, 20],
-    popupAnchor: [5, -10]
+    iconSize: iconSize,
+    iconAnchor: iconAnchor,
+    popupAnchor: popupAnchor
 });
 
 export const darkIcon = L.icon({
     iconUrl: darkImg,
 
-    iconSize: [30, 30],
-    iconAnchor: [10, 20],
-    popupAnchor: [5, -10]
+    iconSize: iconSize,
+    iconAnchor: iconAnchor,
+    popupAnchor: popupAnchor
 });

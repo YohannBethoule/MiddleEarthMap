@@ -4,21 +4,21 @@
   src: url("./assets/fonts/RingbearerMedium.ttf");
 }
 aside {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 500;
-    background: #F9F4ED;
-    transform: translateX(105%);
-    transition: all 0.3s ease-in-out;
-    height: 100vh;
-    width: 100vw;
-    box-shadow: -7px 5px 7px -1px rgba(0, 0, 0, 0.63);
-    overflow: visible;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 500;
+  background: #F9F4ED;
+  transform: translateX(105%);
+  transition: all 0.3s ease-in-out;
+  height: 100vh;
+  width: 100vw;
+  box-shadow: -7px 5px 7px -1px rgba(0, 0, 0, 0.63);
+  overflow: visible;
 }
 @media (min-width: 1000px) {
   aside {
@@ -60,10 +60,10 @@ aside #close-btn:hover {
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.63);
 }
 aside #main-title {
-    font-size: 1.8rem;
-    margin: 2rem 0 1rem 0;
-    font-family: RingBearer, serif;
-    text-align: center;
+  font-size: 1.8rem;
+  margin: 2rem 0 1rem 0;
+  font-family: RingBearer, serif;
+  text-align: center;
 }
 aside #filters {
   padding: 1rem 2rem;
@@ -89,37 +89,47 @@ aside #filters fieldset legend {
   font-weight: bold;
   padding: 0 1rem;
 }
-
 aside footer {
-    margin-top: auto;
-    text-align: center;
+  margin-top: auto;
+  text-align: center;
 }
-
 aside footer .credits {
-    font-size: 0.8rem;
-    margin-bottom: 1rem;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
 }
 
 .leaflet-popup {
-    width: 90vw;
-    max-width: 30rem;
+  width: 90vw;
+  max-width: 30rem;
+  z-index: 420;
 }
 .leaflet-popup .leaflet-popup-content-wrapper {
   background: #F9F4ED;
 }
+
 .leaflet-popup .leaflet-popup-close-button {
   margin: 1rem 2rem;
 }
+
 .leaflet-popup .leaflet-popup-close-button span {
   font-size: 2rem;
 }
+
 .leaflet-popup .leaflet-popup-close-button:hover {
   text-decoration: underline;
 }
+
 .leaflet-popup .leaflet-popup-content {
-  padding: 1rem 2rem;
+  padding: 1rem;
   width: auto !important;
 }
+
+@media (min-width: 1000px) {
+  .leaflet-popup .leaflet-popup-content {
+    padding: 1rem 2rem;
+  }
+}
+
 .leaflet-popup .title {
   font-weight: bold;
   font-size: 1.4rem;
@@ -127,6 +137,7 @@ aside footer .credits {
   border-bottom: 1px solid #cecece;
   padding-bottom: 1rem;
 }
+
 .leaflet-popup .date {
   font-weight: bold;
   font-size: 1rem;
@@ -141,12 +152,12 @@ aside footer .credits {
   justify-content: center;
 }
 .leaflet-popup a.info-link {
-    border: 1px solid black;
-    background-color: rgba(0, 0, 0, 0.78);
-    padding: 0.6rem;
-    text-decoration: none;
-    color: white;
-    text-align: center;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.78);
+  padding: 0.6rem;
+  text-decoration: none;
+  color: white;
+  text-align: center;
 }
 .leaflet-popup a.info-link:hover {
   opacity: 0.9;
@@ -184,11 +195,11 @@ main.leaflet-container {
 }
 
 html, body {
-    width: 100vw;
-    height: 100vh;
-    font-size: 20px;
-    font-family: "Lora", serif;
-    overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  font-size: 20px;
+  font-family: "Lora", serif;
+  overflow: hidden;
 }
 
 body {
@@ -199,7 +210,7 @@ body {
   position: absolute;
   top: 0;
   right: 0.5rem;
-  z-index: 499;
+  z-index: 410;
   width: 3rem;
 }
 #open-btn:hover {

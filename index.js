@@ -109,8 +109,6 @@ const createMarker = (map, data) => {
         markerOptions.icon = deathIcon
     } else if (data.tags?.events?.includes('encounter')) {
         markerOptions.icon = encounterIcon
-    } else if (data.tags?.places?.includes('hobbit')) {
-        markerOptions.icon = hobbitIcon
     } else if (data.tags?.places?.includes('dwarven')) {
         markerOptions.icon = dwarfIcon
     } else if (data.tags?.places?.includes('elven')) {
@@ -119,6 +117,8 @@ const createMarker = (map, data) => {
         markerOptions.icon = humanIcon
     } else if (data.tags?.places?.includes('dark')) {
         markerOptions.icon = darkIcon
+    } else if (data.tags?.places?.includes('hobbit')) {
+        markerOptions.icon = hobbitIcon
     }
     return L.marker(sol, markerOptions).bindPopup(createInfoDialog(data));
 }
