@@ -10,7 +10,6 @@ aside {
   right: 0;
   z-index: 500;
   background: $primary-color;
-  padding: 1em 0;
   transform: translateX(105%);
   transition: all 0.3s ease-in-out;
   height: 100vh;
@@ -62,7 +61,7 @@ aside {
 
   #main-title {
     font-size: 1.8rem;
-    margin: 1rem;
+    margin: 2rem 0 1rem 0;
     font-family: RingBearer, serif;
     text-align: center;
   }
@@ -95,6 +94,11 @@ aside {
   }
 
   footer {
+    .credits {
+      font-size: .8rem;
+      margin-bottom: 1rem;
+    }
+
     margin-top: auto;
     text-align: center;
   }

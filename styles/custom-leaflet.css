@@ -44,6 +44,7 @@
   padding: 0.6rem;
   text-decoration: none;
   color: white;
+  text-align: center;
 }
 .leaflet-popup a.info-link:hover {
   opacity: 0.9;
