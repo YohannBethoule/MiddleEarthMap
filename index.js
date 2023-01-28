@@ -1,15 +1,21 @@
-import mapImage from '/assets/icons/map.webp';
+import mapImage from '/assets/images/map.webp';
 import markersData from './assets/data/markers.json';
 import {battleIcon, darkIcon, deathIcon, dwarfIcon, elfIcon, encounterIcon, hobbitIcon, humanIcon} from "./mapIcons.js";
 
 const map = L.map('map', {
     crs: L.CRS.Simple,
-    minZoom: -2
+    minZoom: -2,
+    maxZoom: 2
 });
 
 const bounds = [[0, 0], [4334, 5000]];
 L.imageOverlay(mapImage, bounds).addTo(map);
 map.fitBounds(bounds);
+
+const cluster = L.markerClusterGroup({
+    maxClusterRadius: 20
+});
+map.addLayer(cluster);
 
 const createInfoDialog = (data) => {
     let info = ``;
@@ -45,18 +51,11 @@ const getFilters = () => {
     return filters;
 }
 
-const clearMarkers = () => {
-    map.eachLayer(function (layer) {
-        if (layer instanceof L.Marker) {
-            map.removeLayer(layer)
-        }
-    })
-}
-
 const renderMarkersFromFilters = (filters) => {
-    clearMarkers();
+    cluster.clearLayers();
     let isRendered = false;
-    let marker;
+    let markers = [];
+
     for (const category of Object.keys(markersData)) {
         for (const m of markersData[category]) {
             isRendered = false;
@@ -66,19 +65,16 @@ const renderMarkersFromFilters = (filters) => {
                 }
             }
             if (isRendered) {
-                marker = createMarker(map, m);
-                marker
-                    .setBouncingOptions({
-                        elastic: false,
-                        bounceHeight: 8
-                    })
-                    .addTo(map)
-                    .addEventListener('mouseover', function () {
-                        this.bounce(1)
-                    });
+                markers.push(createMarker(map, m).setBouncingOptions({
+                    elastic: false,
+                    bounceHeight: 8
+                }).addEventListener('mouseover', function () {
+                    this.bounce(1)
+                }));
             }
         }
     }
+    cluster.addLayers(markers)
 }
 
 const onFilterChange = (e) => {

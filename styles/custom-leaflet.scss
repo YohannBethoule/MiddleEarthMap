@@ -8,27 +8,29 @@ main.leaflet-container {
   font-family: "Lora", serif;
 }
 
-.default-icon {
-  background-color: #583470;
-
-  &.human {
-    background-color: #3ba800;
-  }
-
-  &.elven {
-    background-color: #0078A8;
-  }
-
-  &.hobbit {
-    background-color: #a84c00;
-  }
-}
-
 .leaflet-marker-icon {
   width: 1.8rem !important;
   height: 1.8rem !important;
 
   &:hover {
     opacity: 0.7 !important;
+  }
+}
+
+.marker-cluster {
+  background: transparent !important;
+
+  div {
+    background-color: rgb(68, 171, 12) !important;
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 100% !important;
+
+    span {
+      font-family: "Lora", serif;
+      font-size: .8rem;
+      font-weight: bold;
+      line-height: 1.7rem;
+    }
   }
 }

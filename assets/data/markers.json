@@ -439,6 +439,20 @@
       },
       "x": 1659,
       "y": 1184
+    },
+    {
+      "title": "Shelob",
+      "date": "March 12, T.A. 3019",
+      "description": "Shelob was born as the last child of the spider-like demon Ungoliant. On March 12 T.A. 3019, Gollum led Sam and Frodo into the tunnels of Shelob's Lair and abandoned them in the dark. He planned that Shelob would eat Sam and Frodo so that he could find the One Ring among the bones and clothes.",
+      "infoLink": "https://tolkiengateway.net/wiki/Shelob",
+      "tags": {
+        "events": [
+          "encounter",
+          "war_of_the_ring"
+        ]
+      },
+      "x": 3456,
+      "y": 2680
     }
   ]
 }

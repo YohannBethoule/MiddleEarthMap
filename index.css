@@ -64,6 +64,7 @@ aside #main-title {
   margin: 2rem 0 1rem 0;
   font-family: RingBearer, serif;
   text-align: center;
+  text-shadow: 3px 4px 7px rgba(81, 67, 21, 0.8);
 }
 aside #filters {
   padding: 1rem 2rem;
@@ -106,30 +107,24 @@ aside footer .credits {
 .leaflet-popup .leaflet-popup-content-wrapper {
   background: #F9F4ED;
 }
-
 .leaflet-popup .leaflet-popup-close-button {
   margin: 1rem 2rem;
 }
-
 .leaflet-popup .leaflet-popup-close-button span {
   font-size: 2rem;
 }
-
 .leaflet-popup .leaflet-popup-close-button:hover {
   text-decoration: underline;
 }
-
 .leaflet-popup .leaflet-popup-content {
   padding: 1rem;
   width: auto !important;
 }
-
 @media (min-width: 1000px) {
   .leaflet-popup .leaflet-popup-content {
     padding: 1rem 2rem;
   }
 }
-
 .leaflet-popup .title {
   font-weight: bold;
   font-size: 1.4rem;
@@ -137,7 +132,6 @@ aside footer .credits {
   border-bottom: 1px solid #cecece;
   padding-bottom: 1rem;
 }
-
 .leaflet-popup .date {
   font-weight: bold;
   font-size: 1rem;
@@ -173,25 +167,31 @@ main.leaflet-container {
   font-family: "Lora", serif;
 }
 
-.default-icon {
-  background-color: #583470;
-}
-.default-icon.human {
-  background-color: #3ba800;
-}
-.default-icon.elven {
-  background-color: #0078A8;
-}
-.default-icon.hobbit {
-  background-color: #a84c00;
-}
-
 .leaflet-marker-icon {
   width: 1.8rem !important;
   height: 1.8rem !important;
 }
+
 .leaflet-marker-icon:hover {
   opacity: 0.7 !important;
+}
+
+.marker-cluster {
+  background: transparent !important;
+}
+
+.marker-cluster div {
+  background-color: rgb(68, 171, 12) !important;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 100% !important;
+}
+
+.marker-cluster div span {
+  font-family: "Lora", serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1.7rem;
 }
 
 html, body {
