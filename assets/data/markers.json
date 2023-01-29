@@ -13,6 +13,18 @@
       "y": 2707
     },
     {
+      "title": "Esgaroth (Lake-Town)",
+      "description": "Lake-Town was the township of the Lake-men in Wilderland. The town was constructed entirely of wood and stood upon wooden pillars sunk into the bed of the Long Lake, as a protection against the dragon Smaug, who dwelt nearby in the Lonely Mountain.",
+      "infoLink": "https://tolkiengateway.net/wiki/Lake-town",
+      "tags": {
+        "places": [
+          "human"
+        ]
+      },
+      "x": 3418,
+      "y": 885
+    },
+    {
       "title": "Bree",
       "description": "Bree was the chief village of Bree-land, a small wooded region near the intersection of the main north-south and east-west routes through Eriador. Bree-land was the only part of Middle-earth where Men and hobbits dwelt side by side and Bree had a large population of Hobbits.",
       "infoLink": "https://tolkiengateway.net/wiki/Bree",
@@ -283,6 +295,18 @@
       },
       "x": 2871,
       "y": 1016
+    },
+    {
+      "title": "Goblin-town",
+      "description": "Goblin-town was a Goblin dwelling under the Misty Mountains, which was ruled by the Great Goblin. Goblin-town was a series of tunnels and caverns, which went all the way through the mountains, with a \"back door\" (the Goblin-gate) near the Eagle's Eyrie in Wilderland, which served as a means of escape, and an access to the Wilderland. A cave with a lake was deep beneath Goblin-town yet was connected to the Goblins' tunnels, with one passage leading to the \"back door\".",
+      "infoLink": "https://tolkiengateway.net/wiki/Goblin-town",
+      "tags": {
+        "places": [
+          "dark"
+        ]
+      },
+      "x": 2647,
+      "y": 980
     }
   ],
   "events": [
@@ -453,6 +477,34 @@
       },
       "x": 3456,
       "y": 2680
+    },
+    {
+      "title": "Stone Trolls",
+      "date": "May 28, T.A. 2941",
+      "description": "Three Stone Trolls (William, Tom and Bert) captured Bilbo and the Company of Thorin. Thanks to Gandalf who tricked them, they kept fighting over how to cook the dwarves until the sun set up, frozing them into stone statues.",
+      "infoLink": "https://tolkiengateway.net/wiki/Roast_Mutton",
+      "tags": {
+        "events": [
+          "encounter",
+          "thorin"
+        ]
+      },
+      "x": 2320,
+      "y": 1120
+    },
+    {
+      "title": "Giant Spiders",
+      "date": "August, T.A. 2941",
+      "description": "Giant spiders (Ungolianth's spawns) managed to capture and entangle in webs each of the thirteen Dwarves. Only Bilbo's magic Ring and his Elven blade Sting allowed them to escape from being eaten, before being captured by Thranduil's elves.",
+      "infoLink": "https://tolkiengateway.net/wiki/Flies_and_Spiders",
+      "tags": {
+        "events": [
+          "encounter",
+          "thorin"
+        ]
+      },
+      "x": 3250,
+      "y": 937
     }
   ]
 }
