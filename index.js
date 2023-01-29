@@ -41,7 +41,8 @@ const createInfoDialog = (data) => {
 const getFilters = () => {
     let filters = {
         'places': [],
-        'events': []
+        'events': [],
+        'quests': [],
     };
     document.querySelectorAll('#filters fieldset').forEach(category => {
         category.querySelectorAll('input[type=checkbox]:checked').forEach(filter => {
@@ -56,23 +57,24 @@ const renderMarkersFromFilters = (filters) => {
     let isRendered = false;
     let markers = [];
 
-    for (const category of Object.keys(markersData)) {
-        for (const m of markersData[category]) {
-            isRendered = false;
+    for (const m of markersData) {
+        isRendered = false;
+        for (const category of Object.keys(filters)) {
             for (const filter of filters[category]) {
                 if (m.tags[category]?.includes(filter)) {
                     isRendered = true;
                 }
             }
-            if (isRendered) {
-                markers.push(createMarker(map, m).setBouncingOptions({
-                    elastic: false,
-                    bounceHeight: 8
-                }).addEventListener('mouseover', function () {
-                    this.bounce(1)
-                }));
-            }
         }
+        if (isRendered) {
+            markers.push(createMarker(map, m).setBouncingOptions({
+                elastic: false,
+                bounceHeight: 8
+            }).addEventListener('mouseover', function () {
+                this.bounce(1)
+            }));
+        }
+
     }
     cluster.addLayers(markers)
 }

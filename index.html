@@ -33,6 +33,27 @@
         <h1 id="main-title">Middle-Earth interactive map</h1>
         <div id="site-description">Discover Middle-Earth during the Third Age</div>
 
+        <fieldset id="filters-quests">
+            <legend>Quests</legend>
+
+            <div>
+                <input data-category="quests" data-filter="all" id="all-quests" name="all-quests" type="checkbox">
+                <label for="all-quests">All</label>
+            </div>
+
+            <div>
+                <input data-category="quests" data-filter="erebor" id="erebor-quest" name="erebor-quest"
+                       type="checkbox">
+                <label for="erebor-quest">Quest for Erebor</label>
+            </div>
+
+            <div>
+                <input data-category="quests" data-filter="ring" id="ring-quest" name="ring-quest"
+                       type="checkbox">
+                <label for="ring-quest">Quest of the Ring</label>
+            </div>
+        </fieldset>
+
         <fieldset id="filters-places">
             <legend>Places</legend>
 
@@ -94,19 +115,6 @@
                        type="checkbox">
                 <label for="encounter-events">Encounters</label>
             </div>
-
-            <div>
-                <input data-category="events" data-filter="war_of_the_ring" id="war_of_the_ring-events"
-                       name="war_of_the_ring-events"
-                       type="checkbox">
-                <label for="war_of_the_ring-events">War of The Ring</label>
-            </div>
-
-            <div>
-                <input data-category="events" data-filter="thorin" id="thorin-events" name="thorin-events"
-                       type="checkbox">
-                <label for="thorin-events">Quest for Erebor</label>
-            </div>
         </fieldset>
 
         <!--        <fieldset id="filters-paths">-->
@@ -123,6 +131,7 @@
         <!--                <label for="gandalf-path">Gandalf</label>-->
         <!--            </div>-->
         <!--        </fieldset>-->
+
         <footer>
             <p class="credits">Credits to Emil Johansson, creator of <a href="http://lotrproject.com"
                                                                         rel="noopener norefferer" target="_blank">lotrproject.com</a>,

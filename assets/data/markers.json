@@ -1,512 +1,659 @@
-{
-  "places": [
-    {
-      "title": "Minas Tirith",
-      "description": "Minas Tirith was originally a fortress, Minas Anor, built in S.A. 3320 by the Faithful Númenóreans. From T.A. 1640 onwards it was the capital of the South-kingdom and the seat of its Kings and ruling Stewards.",
-      "infoLink": "https://tolkiengateway.net/wiki/Minas_Tirith",
-      "tags": {
-        "places": [
-          "human"
-        ]
-      },
-      "x": 3279,
-      "y": 2707
+[
+  {
+    "title": "Minas Tirith",
+    "description": "Minas Tirith was originally a fortress, Minas Anor, built in S.A. 3320 by the Faithful Númenóreans. From T.A. 1640 onwards it was the capital of the South-kingdom and the seat of its Kings and ruling Stewards.",
+    "infoLink": "https://tolkiengateway.net/wiki/Minas_Tirith",
+    "tags": {
+      "places": [
+        "human"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Esgaroth (Lake-Town)",
-      "description": "Lake-Town was the township of the Lake-men in Wilderland. The town was constructed entirely of wood and stood upon wooden pillars sunk into the bed of the Long Lake, as a protection against the dragon Smaug, who dwelt nearby in the Lonely Mountain.",
-      "infoLink": "https://tolkiengateway.net/wiki/Lake-town",
-      "tags": {
-        "places": [
-          "human"
-        ]
-      },
-      "x": 3418,
-      "y": 885
+    "x": 3279,
+    "y": 2707
+  },
+  {
+    "title": "Esgaroth (Lake-Town)",
+    "description": "Lake-Town was the township of the Lake-men in Wilderland. The town was constructed entirely of wood and stood upon wooden pillars sunk into the bed of the Long Lake, as a protection against the dragon Smaug, who dwelt nearby in the Lonely Mountain.",
+    "infoLink": "https://tolkiengateway.net/wiki/Lake-town",
+    "tags": {
+      "places": [
+        "human"
+      ],
+      "quests": [
+        "erebor"
+      ]
     },
-    {
-      "title": "Bree",
-      "description": "Bree was the chief village of Bree-land, a small wooded region near the intersection of the main north-south and east-west routes through Eriador. Bree-land was the only part of Middle-earth where Men and hobbits dwelt side by side and Bree had a large population of Hobbits.",
-      "infoLink": "https://tolkiengateway.net/wiki/Bree",
-      "tags": {
-        "places": [
-          "human",
-          "hobbit"
-        ]
-      },
-      "x": 1793,
-      "y": 1163
+    "x": 3418,
+    "y": 885
+  },
+  {
+    "title": "Bree",
+    "description": "Bree was the chief village of Bree-land, a small wooded region near the intersection of the main north-south and east-west routes through Eriador. Bree-land was the only part of Middle-earth where Men and hobbits dwelt side by side and Bree had a large population of Hobbits.",
+    "infoLink": "https://tolkiengateway.net/wiki/Bree",
+    "tags": {
+      "places": [
+        "human",
+        "hobbit"
+      ],
+      "quests": [
+        "ring",
+        "erebor"
+      ]
     },
-    {
-      "title": "Erebor",
-      "description": "The Longbeards had control of Erebor since at least the early Second Age. With the awakening of Durin's Bane in the capital of Khazad-dûm, Thráin I led a group of Dwarves to Erebor. Once there, the dwarves dug caves and halls to form an underground city, thus establishing the Kingdom under the Mountain in T.A. 1999.",
-      "infoLink": "https://tolkiengateway.net/wiki/Erebor",
-      "tags": {
-        "places": [
-          "dwarven"
-        ]
-      },
-      "x": 3405,
-      "y": 825
+    "x": 1793,
+    "y": 1163
+  },
+  {
+    "title": "Erebor",
+    "description": "The Longbeards had control of Erebor since at least the early Second Age. With the awakening of Durin's Bane in the capital of Khazad-dûm, Thráin I led a group of Dwarves to Erebor. Once there, the dwarves dug caves and halls to form an underground city, thus establishing the Kingdom under the Mountain in T.A. 1999.",
+    "infoLink": "https://tolkiengateway.net/wiki/Erebor",
+    "tags": {
+      "places": [
+        "dwarven"
+      ],
+      "quests": [
+        "erebor"
+      ]
     },
-    {
-      "title": "Rivendell",
-      "sindarinTitle": "Imladris",
-      "description": "Rivendell was established by Elrond in S.A. 1697 as a refuge from Sauron after the Fall of Eregion. It remained Elrond's seat throughout the remainder of the Second Age and until the end of the Third Age, when he took the White Ship for Valinor.",
-      "infoLink": "https://tolkiengateway.net/wiki/Rivendell",
-      "tags": {
-        "places": [
-          "elven"
-        ]
-      },
-      "x": 2516,
-      "y": 1123
+    "x": 3405,
+    "y": 825
+  },
+  {
+    "title": "Rivendell",
+    "sindarinTitle": "Imladris",
+    "description": "Rivendell was established by Elrond in S.A. 1697 as a refuge from Sauron after the Fall of Eregion. It remained Elrond's seat throughout the remainder of the Second Age and until the end of the Third Age, when he took the White Ship for Valinor.",
+    "infoLink": "https://tolkiengateway.net/wiki/Rivendell",
+    "tags": {
+      "places": [
+        "elven"
+      ],
+      "quests": [
+        "erebor",
+        "ring"
+      ]
     },
-    {
-      "title": "Mount Doom",
-      "sindarinTitle": "Orodruin, Amon Amarth",
-      "description": "Melkor created Mount Doom in the First Age. When Sauron chose the land of Mordor as his dwelling-place in the Second Age, Orodruin was the reason for his choice. The mountain erupted in S.A. 3429, signalling Sauron's attack on Gondor and it took the name Amon Amarth, \"Mount Doom\". This is where the One Ring was forged by Sauron, and where it was destroyed by Gollum.",
-      "infoLink": "https://tolkiengateway.net/wiki/Mount_Doom",
-      "tags": {
-        "places": [
-          "dark"
-        ]
-      },
-      "x": 3606,
-      "y": 2603
+    "x": 2516,
+    "y": 1123
+  },
+  {
+    "title": "Mount Doom",
+    "sindarinTitle": "Orodruin, Amon Amarth",
+    "description": "Melkor created Mount Doom in the First Age. When Sauron chose the land of Mordor as his dwelling-place in the Second Age, Orodruin was the reason for his choice. The mountain erupted in S.A. 3429, signalling Sauron's attack on Gondor and it took the name Amon Amarth, \"Mount Doom\". This is where the One Ring was forged by Sauron, and where it was destroyed by Gollum.",
+    "infoLink": "https://tolkiengateway.net/wiki/Mount_Doom",
+    "tags": {
+      "places": [
+        "dark"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Osgiliath",
-      "description": "Founded by Isildur and Anárion near the end of the Second Age, Osgiliath was designated the capital of the southern Númenórean kingdom in exile, Gondor. It stays so until the King's House was moved to the more secure Minas Anor in T.A. 1640.",
-      "infoLink": "https://tolkiengateway.net/wiki/Osgiliath",
-      "tags": {
-        "places": [
-          "human"
-        ]
-      },
-      "x": 3330,
-      "y": 2700
+    "x": 3606,
+    "y": 2603
+  },
+  {
+    "title": "Osgiliath",
+    "description": "Founded by Isildur and Anárion near the end of the Second Age, Osgiliath was designated the capital of the southern Númenórean kingdom in exile, Gondor. It stays so until the King's House was moved to the more secure Minas Anor in T.A. 1640.",
+    "infoLink": "https://tolkiengateway.net/wiki/Osgiliath",
+    "tags": {
+      "places": [
+        "human"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Hobbiton",
-      "description": "Hobbiton was a hobbit village in the central regions of the Shire, within the borders of the Westfarthing.",
-      "infoLink": "https://tolkiengateway.net/wiki/Hobbiton",
-      "tags": {
-        "places": [
-          "hobbit"
-        ]
-      },
-      "x": 1482,
-      "y": 1158
+    "x": 3330,
+    "y": 2700
+  },
+  {
+    "title": "Hobbiton",
+    "description": "Hobbiton was a hobbit village in the central regions of the Shire, within the borders of the Westfarthing.",
+    "infoLink": "https://tolkiengateway.net/wiki/Hobbiton",
+    "tags": {
+      "places": [
+        "hobbit"
+      ],
+      "quests": [
+        "erebor",
+        "ring"
+      ]
     },
-    {
-      "title": "Helm's Deep",
-      "description": "Helm's Deep was a large valley gorge in the north-western Ered Nimrais (White Mountains) below the Thrihyrne. It was actually the name of the whole defensive system including its major defensive structure, the Hornburg.",
-      "infoLink": "https://tolkiengateway.net/wiki/Helm's_Deep",
-      "tags": {
-        "places": [
-          "human"
-        ]
-      },
-      "x": 2423,
-      "y": 2321
+    "x": 1482,
+    "y": 1158
+  },
+  {
+    "title": "Helm's Deep",
+    "description": "Helm's Deep was a large valley gorge in the north-western Ered Nimrais (White Mountains) below the Thrihyrne. It was actually the name of the whole defensive system including its major defensive structure, the Hornburg.",
+    "infoLink": "https://tolkiengateway.net/wiki/Helm's_Deep",
+    "tags": {
+      "places": [
+        "human"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Black Gate",
-      "sindarinTitle": "Morannon",
-      "description": "The Black Gate was the main entrance into the land of Mordor. It was built by Sauron after he chose Mordor as a land to make into a stronghold in S.A. 1000.",
-      "infoLink": "https://tolkiengateway.net/wiki/Black_Gate",
-      "tags": {
-        "places": [
-          "dark"
-        ]
-      },
-      "x": 3389,
-      "y": 2377
+    "x": 2423,
+    "y": 2321
+  },
+  {
+    "title": "Black Gate",
+    "sindarinTitle": "Morannon",
+    "description": "The Black Gate was the main entrance into the land of Mordor. It was built by Sauron after he chose Mordor as a land to make into a stronghold in S.A. 1000.",
+    "infoLink": "https://tolkiengateway.net/wiki/Black_Gate",
+    "tags": {
+      "places": [
+        "dark"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Weathertop",
-      "sindarinTitle": "Amun Sûl",
-      "description": "In T.A.3018, Amun Sûl was the scene of two fights involving the Nazgûl: one with Gandalf on October 3 and one with the Ring-bearer three days later..",
-      "infoLink": "https://tolkiengateway.net/wiki/Weathertop",
-      "tags": {
-        "places": [
-          "human"
-        ]
-      },
-      "x": 2000,
-      "y": 1158
+    "x": 3389,
+    "y": 2377
+  },
+  {
+    "title": "Weathertop",
+    "sindarinTitle": "Amun Sûl",
+    "description": "In T.A.3018, Amun Sûl was the scene of two fights involving the Nazgûl: one with Gandalf on October 3 and one with the Ring-bearer three days later..",
+    "infoLink": "https://tolkiengateway.net/wiki/Weathertop",
+    "tags": {
+      "places": [
+        "human"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Isengard",
-      "sindarinTitle": "Angrenost",
-      "description": "Isengard was one of the three major fortresses of Gondor, and held within it one of the realm's palantíri. In the latter half of the Third Age, the stronghold came into the possession of Saruman, becoming his home and personal domain until his defeat in the War of the Ring. ",
-      "infoLink": "https://tolkiengateway.net/wiki/Isengard",
-      "tags": {
-        "places": [
-          "dark"
-        ]
-      },
-      "x": 2335,
-      "y": 2117
+    "x": 2000,
+    "y": 1158
+  },
+  {
+    "title": "Isengard",
+    "sindarinTitle": "Angrenost",
+    "description": "Isengard was one of the three major fortresses of Gondor, and held within it one of the realm's palantíri. In the latter half of the Third Age, the stronghold came into the possession of Saruman, becoming his home and personal domain until his defeat in the War of the Ring. ",
+    "infoLink": "https://tolkiengateway.net/wiki/Isengard",
+    "tags": {
+      "places": [
+        "dark"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Barad-dûr",
-      "description": "Barad-dûr, also known as the Dark Tower, was the chief fortress of Sauron, on the Plateau of Gorgoroth in Mordor. Sauron began to build Barad-dûr in around S.A. 1000, and completed his fortress after 600 years of the construction with the power of the Ring. It was partially destroyed after Sauron's defeat against Isildur, and began to be rebuilt in T.A. 2951.",
-      "infoLink": "https://tolkiengateway.net/wiki/Barad-dûr",
-      "tags": {
-        "places": [
-          "dark"
-        ]
-      },
-      "x": 3750,
-      "y": 2553
+    "x": 2335,
+    "y": 2117
+  },
+  {
+    "title": "Barad-dûr",
+    "description": "Barad-dûr, also known as the Dark Tower, was the chief fortress of Sauron, on the Plateau of Gorgoroth in Mordor. Sauron began to build Barad-dûr in around S.A. 1000, and completed his fortress after 600 years of the construction with the power of the Ring. It was partially destroyed after Sauron's defeat against Isildur, and began to be rebuilt in T.A. 2951.",
+    "infoLink": "https://tolkiengateway.net/wiki/Barad-dûr",
+    "tags": {
+      "places": [
+        "dark"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Edoras",
-      "description": "Edoras was the capital of Rohan that held the Golden Hall of Meduseld. Rohan's first capital was at Aldburg in the Folde, until King Eorl the Young or his son Brego built Edoras in T.A. 2569. ",
-      "infoLink": "https://tolkiengateway.net/wiki/Edoras",
-      "tags": {
-        "places": [
-          "human"
-        ]
-      },
-      "x": 2589,
-      "y": 2383
+    "x": 3750,
+    "y": 2553
+  },
+  {
+    "title": "Edoras",
+    "description": "Edoras was the capital of Rohan that held the Golden Hall of Meduseld. Rohan's first capital was at Aldburg in the Folde, until King Eorl the Young or his son Brego built Edoras in T.A. 2569. ",
+    "infoLink": "https://tolkiengateway.net/wiki/Edoras",
+    "tags": {
+      "places": [
+        "human"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Moria",
-      "sindarinTitle": "Khazad-dûm",
-      "description": "Khazad-dûm was the grandest and most famous of the mansions of the Dwarves. There, for many thousands of years, a thriving Dwarvish community created the greatest city ever known. ",
-      "infoLink": "https://tolkiengateway.net/wiki/Moria",
-      "tags": {
-        "places": [
-          "dwarven"
-        ]
-      },
-      "x": 2492,
-      "y": 1505
+    "x": 2589,
+    "y": 2383
+  },
+  {
+    "title": "Moria",
+    "sindarinTitle": "Khazad-dûm",
+    "description": "Khazad-dûm was the grandest and most famous of the mansions of the Dwarves. There, for many thousands of years, a thriving Dwarvish community created the greatest city ever known. ",
+    "infoLink": "https://tolkiengateway.net/wiki/Moria",
+    "tags": {
+      "places": [
+        "dwarven"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Grey Havens",
-      "sindarinTitle": "Mithlond",
-      "description": "Founded by the Elves of Lindon in S.A. 1, the Grey Havens were known for their good harbourage and many ships; these were used by any of the Eldar to leave Middle-earth for Eressëa or Valinor.",
-      "infoLink": "https://tolkiengateway.net/wiki/Grey_Havens",
-      "tags": {
-        "places": [
-          "elven"
-        ]
-      },
-      "x": 1047,
-      "y": 1186
+    "x": 2492,
+    "y": 1505
+  },
+  {
+    "title": "Grey Havens",
+    "sindarinTitle": "Mithlond",
+    "description": "Founded by the Elves of Lindon in S.A. 1, the Grey Havens were known for their good harbourage and many ships; these were used by any of the Eldar to leave Middle-earth for Eressëa or Valinor.",
+    "infoLink": "https://tolkiengateway.net/wiki/Grey_Havens",
+    "tags": {
+      "places": [
+        "elven"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Lothlórien",
-      "description": "Lothlórien (or Lórien) was a kingdom of Silvan Elves on the eastern side of the Hithaeglir. It was considered one of the most beautiful and \"elvish\" places in Middle-earth during the Third Age, and had the only mallorn-trees east of the sea.",
-      "infoLink": "https://tolkiengateway.net/wiki/Lothlórien",
-      "tags": {
-        "places": [
-          "elven"
-        ]
-      },
-      "x": 2666,
-      "y": 1679
+    "x": 1047,
+    "y": 1186
+  },
+  {
+    "title": "Lothlórien",
+    "description": "Lothlórien (or Lórien) was a kingdom of Silvan Elves on the eastern side of the Hithaeglir. It was considered one of the most beautiful and \"elvish\" places in Middle-earth during the Third Age, and had the only mallorn-trees east of the sea.",
+    "infoLink": "https://tolkiengateway.net/wiki/Lothlórien",
+    "tags": {
+      "places": [
+        "elven"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Elvenking's Hall",
-      "description": "Elvenking's Hall were a cave system in northern Mirkwood, in which King Thranduil and many of the Elves of Mirkwood lived during most of the Third Age and into the Fourth Age. ",
-      "infoLink": "https://tolkiengateway.net/wiki/Elvenking's_Halls",
-      "tags": {
-        "places": [
-          "elven"
-        ]
-      },
-      "x": 3311,
-      "y": 849
+    "x": 2666,
+    "y": 1679
+  },
+  {
+    "title": "Elvenking's Hall",
+    "description": "Elvenking's Hall were a cave system in northern Mirkwood, in which King Thranduil and many of the Elves of Mirkwood lived during most of the Third Age and into the Fourth Age. ",
+    "infoLink": "https://tolkiengateway.net/wiki/Elvenking's_Halls",
+    "tags": {
+      "places": [
+        "elven"
+      ],
+      "quests": [
+        "erebor"
+      ]
     },
-    {
-      "title": "Dol Guldur",
-      "description": "Dol Guldur (\"Hill of Sorcery\" in Sindarin), also called \"the dungeons of the Necromancer\", was a stronghold of Sauron located in the south of Mirkwood.",
-      "infoLink": "https://tolkiengateway.net/wiki/Dol_Guldur",
-      "tags": {
-        "places": [
-          "dark"
-        ]
-      },
-      "x": 3014,
-      "y": 1629
+    "x": 3311,
+    "y": 849
+  },
+  {
+    "title": "Dol Guldur",
+    "description": "Dol Guldur (\"Hill of Sorcery\" in Sindarin), also called \"the dungeons of the Necromancer\", was a stronghold of Sauron located in the south of Mirkwood.",
+    "infoLink": "https://tolkiengateway.net/wiki/Dol_Guldur",
+    "tags": {
+      "places": [
+        "dark"
+      ],
+      "quests": [
+        "erebor",
+        "ring"
+      ]
     },
-    {
-      "title": "Minas Morgul",
-      "description": "Minas Morgul (originally called Minas Ithil) was the twin city of Minas Tirith before its fall to the forces of Sauron in the Third Age. It then became the stronghold of the Witch-king of Angmar until Sauron's defeat.",
-      "infoLink": "https://tolkiengateway.net/wiki/Minas_Morgul",
-      "tags": {
-        "places": [
-          "dark"
-        ]
-      },
-      "x": 3424,
-      "y": 2695
+    "x": 3014,
+    "y": 1629
+  },
+  {
+    "title": "Minas Morgul",
+    "description": "Minas Morgul (originally called Minas Ithil) was the twin city of Minas Tirith before its fall to the forces of Sauron in the Third Age. It then became the stronghold of the Witch-king of Angmar until Sauron's defeat.",
+    "infoLink": "https://tolkiengateway.net/wiki/Minas_Morgul",
+    "tags": {
+      "places": [
+        "dark"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Paths of the Dead",
-      "description": "The Paths of the Dead was a haunted underground passage through the White Mountains that led from Harrowdale in Rohan to Blackroot Vale in Gondor.",
-      "infoLink": "https://tolkiengateway.net/wiki/Paths_of_the_Dead",
-      "tags": {
-        "places": [
-          "human"
-        ]
-      },
-      "x": 2605,
-      "y": 2535
+    "x": 3424,
+    "y": 2695
+  },
+  {
+    "title": "Paths of the Dead",
+    "description": "The Paths of the Dead was a haunted underground passage through the White Mountains that led from Harrowdale in Rohan to Blackroot Vale in Gondor.",
+    "infoLink": "https://tolkiengateway.net/wiki/Paths_of_the_Dead",
+    "tags": {
+      "places": [
+        "human"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Mount Gram",
-      "description": "Mount Gram was inhabited by Orcs led by their King Golfimbul. In T.A. 2747 they attacked much of northern Eriador, but were defeated in the Battle of Greenfields.",
-      "infoLink": "https://tolkiengateway.net/wiki/Mount_Gram",
-      "tags": {
-        "places": [
-          "dark"
-        ]
-      },
-      "x": 2353,
-      "y": 746
+    "x": 2605,
+    "y": 2535
+  },
+  {
+    "title": "Mount Gram",
+    "description": "Mount Gram was inhabited by Orcs led by their King Golfimbul. In T.A. 2747 they attacked much of northern Eriador, but were defeated in the Battle of Greenfields.",
+    "infoLink": "https://tolkiengateway.net/wiki/Mount_Gram",
+    "tags": {
+      "places": [
+        "dark"
+      ],
+      "quests": [
+        "erebor"
+      ]
     },
-    {
-      "title": "Carn Dûm",
-      "description": "Carn Dûm was the chief fortress of the realm of Angmar and the seat of its king until its defeat against the combined armies of Gondor, Lindon and Arnor in T.A. 1974.",
-      "infoLink": "https://tolkiengateway.net/wiki/Carn_Dûm",
-      "tags": {
-        "places": [
-          "dark"
-        ]
-      },
-      "x": 2115,
-      "y": 523
+    "x": 2353,
+    "y": 746
+  },
+  {
+    "title": "Carn Dûm",
+    "description": "Carn Dûm was the chief fortress of the realm of Angmar and the seat of its king until its defeat against the combined armies of Gondor, Lindon and Arnor in T.A. 1974.",
+    "infoLink": "https://tolkiengateway.net/wiki/Carn_Dûm",
+    "tags": {
+      "places": [
+        "dark"
+      ]
     },
-    {
-      "title": "Beorn's Hall",
-      "description": "Beorn's Hall was the home of Beorn, a powerful Skin-changer. Beorn hosted and aided Thorin and Company during their Quest for Erebor",
-      "infoLink": "https://tolkiengateway.net/wiki/Beorn's_Hall",
-      "tags": {
-        "places": [
-          "human"
-        ]
-      },
-      "x": 2871,
-      "y": 1016
+    "x": 2115,
+    "y": 523
+  },
+  {
+    "title": "Beorn's Hall",
+    "description": "Beorn's Hall was the home of Beorn, a powerful Skin-changer. Beorn hosted and aided Thorin and Company during their Quest for Erebor",
+    "infoLink": "https://tolkiengateway.net/wiki/Beorn's_Hall",
+    "tags": {
+      "places": [
+        "human"
+      ],
+      "quests": [
+        "erebor"
+      ]
     },
-    {
-      "title": "Goblin-town",
-      "description": "Goblin-town was a Goblin dwelling under the Misty Mountains, which was ruled by the Great Goblin. Goblin-town was a series of tunnels and caverns, which went all the way through the mountains, with a \"back door\" (the Goblin-gate) near the Eagle's Eyrie in Wilderland, which served as a means of escape, and an access to the Wilderland. A cave with a lake was deep beneath Goblin-town yet was connected to the Goblins' tunnels, with one passage leading to the \"back door\".",
-      "infoLink": "https://tolkiengateway.net/wiki/Goblin-town",
-      "tags": {
-        "places": [
-          "dark"
-        ]
-      },
-      "x": 2647,
-      "y": 980
-    }
-  ],
-  "events": [
-    {
-      "title": "Battle of Dagorlad",
-      "date": "3434 of the Second Age",
-      "description": "The Battle of Dagorlad was fought between the army of the Last Alliance under Gil-galad and Elendil and an army of Orcs and other creatures loyal to Sauron.",
-      "infoLink": "https://tolkiengateway.net/wiki/Battle_of_Dagorlad",
-      "tags": {
-        "events": [
-          "battle",
-          "last_alliance"
-        ]
-      },
-      "x": 3319,
-      "y": 2356
+    "x": 2871,
+    "y": 1016
+  },
+  {
+    "title": "Goblin-town",
+    "description": "Goblin-town was a Goblin dwelling under the Misty Mountains, which was ruled by the Great Goblin. Goblin-town was a series of tunnels and caverns, which went all the way through the mountains, with a \"back door\" (the Goblin-gate) near the Eagle's Eyrie in Wilderland, which served as a means of escape, and an access to the Wilderland. A cave with a lake was deep beneath Goblin-town yet was connected to the Goblins' tunnels, with one passage leading to the \"back door\".",
+    "infoLink": "https://tolkiengateway.net/wiki/Goblin-town",
+    "tags": {
+      "places": [
+        "dark"
+      ],
+      "quests": [
+        "erebor"
+      ]
     },
-    {
-      "title": "Battle of Isengard",
-      "date": "3 March, T.A. 3019",
-      "description": "Spurred on by Meriadoc Brandybuck and Peregrin Took, the Ents, followed by Huorns, invaded the Ring of Isengard from Fangorn Forest. It led the the drowning of Isengard and the defeat of Saruman.",
-      "infoLink": "https://tolkiengateway.net/wiki/Battle_of_Isengard",
-      "tags": {
-        "events": [
-          "battle",
-          "war_of_the_ring"
-        ]
-      },
-      "x": 2335,
-      "y": 2117
+    "x": 2647,
+    "y": 980
+  },
+  {
+    "title": "Dale",
+    "description": "Dale was a great city of the Northmen which was destroyed by Smaug and rebuilt as the capital of a great kingdom after his demise.",
+    "infoLink": "https://tolkiengateway.net/wiki/Dale",
+    "tags": {
+      "places": [
+        "human"
+      ],
+      "quests": [
+        "erebor"
+      ]
     },
-    {
-      "title": "Battle of Five Armies",
-      "date": "2941 of the Third Age",
-      "description": "The five warring parties were the Goblins and the Wargs against Men, Elves and Dwarves on and near the Lonely Mountain.",
-      "infoLink": "https://tolkiengateway.net/wiki/Battle_of_Five_Armies",
-      "tags": {
-        "events": [
-          "battle",
-          "thorin"
-        ]
-      },
-      "x": 3405,
-      "y": 825
+    "x": 3430,
+    "y": 855
+  },
+  {
+    "title": "Battle of Dagorlad",
+    "date": "3434 of the Second Age",
+    "description": "The Battle of Dagorlad was fought between the army of the Last Alliance under Gil-galad and Elendil and an army of Orcs and other creatures loyal to Sauron.",
+    "infoLink": "https://tolkiengateway.net/wiki/Battle_of_Dagorlad",
+    "tags": {
+      "events": [
+        "battle"
+      ],
+      "quests": [
+        "other"
+      ]
     },
-    {
-      "title": "Battle of Pelennor Fields",
-      "date": "15 March, T.A. 3019",
-      "description": "The Battle of the Pelennor Fields was the greatest battle of the War of the Ring. This battle saw the siege of Minas Tirith by Mordor's troops widely outnumbering the defenders, but resulted in the loss of Sauron's armies after the Witch King was killed in combat.",
-      "infoLink": "https://tolkiengateway.net/wiki/Battle_of_the_Pelennor_Fields",
-      "tags": {
-        "events": [
-          "battle",
-          "war_of_the_ring"
-        ]
-      },
-      "x": 3279,
-      "y": 2707
+    "x": 3319,
+    "y": 2356
+  },
+  {
+    "title": "Battle of Isengard",
+    "date": "3 March, T.A. 3019",
+    "description": "Spurred on by Meriadoc Brandybuck and Peregrin Took, the Ents, followed by Huorns, invaded the Ring of Isengard from Fangorn Forest. It led the the drowning of Isengard and the defeat of Saruman.",
+    "infoLink": "https://tolkiengateway.net/wiki/Battle_of_Isengard",
+    "tags": {
+      "events": [
+        "battle"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Battle of the Morannon",
-      "date": "25 March, T.A. 3019",
-      "description": "The Battle of the Morannon was the last major battle against Sauron in the War of the Ring, fought at the Black Gate of Mordor on 25 March T.A. 3019. The army of the West, 6,000 strong by now, led by Aragorn marched on the gate as a diversionary feint to distract Sauron's attention from Frodo and Sam, who were carrying the One Ring through Mordor. It was hoped that Sauron would think Aragorn had the Ring and was now trying to use it to overthrow Mordor.",
-      "infoLink": "https://tolkiengateway.net/wiki/Battle_of_the_Morannon",
-      "tags": {
-        "events": [
-          "battle",
-          "war_of_the_ring"
-        ]
-      },
-      "x": 3389,
-      "y": 2377
+    "x": 2335,
+    "y": 2117
+  },
+  {
+    "title": "Battle of Five Armies",
+    "date": "2941 of the Third Age",
+    "description": "The five warring parties were the Goblins and the Wargs against Men, Elves and Dwarves on and near the Lonely Mountain.",
+    "infoLink": "https://tolkiengateway.net/wiki/Battle_of_Five_Armies",
+    "tags": {
+      "events": [
+        "battle"
+      ],
+      "quests": [
+        "erebor"
+      ]
     },
-    {
-      "title": "Battle of the Hornburg",
-      "date": "3-4 March, T.A. 3019",
-      "description": "The Battle of the Hornburg took place at the mountain fortress of the Hornburg in the valley of Helm's Deep in Rohan. Taking place over the night of the 3-4 March T.A. 3019, it saw the attacking Uruk-hai of Saruman defeated by the Rohirrim led by Théoden and Erkenbrand.",
-      "infoLink": "https://tolkiengateway.net/wiki/Battle_of_the_Hornburg",
-      "tags": {
-        "events": [
-          "battle",
-          "war_of_the_ring"
-        ]
-      },
-      "x": 2423,
-      "y": 2321
+    "x": 3405,
+    "y": 825
+  },
+  {
+    "title": "Battle of Pelennor Fields",
+    "date": "15 March, T.A. 3019",
+    "description": "The Battle of the Pelennor Fields was the greatest battle of the War of the Ring. This battle saw the siege of Minas Tirith by Mordor's troops widely outnumbering the defenders, but resulted in the loss of Sauron's armies after the Witch King was killed in combat.",
+    "infoLink": "https://tolkiengateway.net/wiki/Battle_of_the_Pelennor_Fields",
+    "tags": {
+      "events": [
+        "battle"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Boromir",
-      "date": "February 26, T.A. 3019",
-      "description": "Boromir died at Amon Hen, the westernmost of the three peaks at the southern end of Nen Hithoel. He perished trying to defend Merry and Pippin from Saruman's Orcs, slaying at least 20 of them before perishing after being hit by many arrows.",
-      "infoLink": "https://tolkiengateway.net/wiki/Boromir",
-      "tags": {
-        "events": [
-          "death",
-          "war_of_the_ring"
-        ]
-      },
-      "x": 3037,
-      "y": 2377
+    "x": 3279,
+    "y": 2707
+  },
+  {
+    "title": "Battle of the Morannon",
+    "date": "25 March, T.A. 3019",
+    "description": "The Battle of the Morannon was the last major battle against Sauron in the War of the Ring, fought at the Black Gate of Mordor on 25 March T.A. 3019. The army of the West, 6,000 strong by now, led by Aragorn marched on the gate as a diversionary feint to distract Sauron's attention from Frodo and Sam, who were carrying the One Ring through Mordor. It was hoped that Sauron would think Aragorn had the Ring and was now trying to use it to overthrow Mordor.",
+    "infoLink": "https://tolkiengateway.net/wiki/Battle_of_the_Morannon",
+    "tags": {
+      "events": [
+        "battle"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Gandlaf the Grey",
-      "date": "January 25, T.A. 3019",
-      "description": "Gandalf pursued the Balrog from the deepests dungeons of Moria to Durin's Tower, climbing through the whole Endless Stair, where they fought for three days and two nights. In the end, the Balrog was cast down and it broke the mountain-side as it fell. Gandalf himself died following this ordeal, but was later sent back to Middle-earth with even greater powers as Gandalf the White.",
-      "infoLink": "https://tolkiengateway.net/wiki/Battle_of_the_Peak",
-      "tags": {
-        "events": [
-          "death",
-          "war_of_the_ring"
-        ]
-      },
-      "x": 2500,
-      "y": 1558
+    "x": 3389,
+    "y": 2377
+  },
+  {
+    "title": "Battle of the Hornburg",
+    "date": "3-4 March, T.A. 3019",
+    "description": "The Battle of the Hornburg took place at the mountain fortress of the Hornburg in the valley of Helm's Deep in Rohan. Taking place over the night of the 3-4 March T.A. 3019, it saw the attacking Uruk-hai of Saruman defeated by the Rohirrim led by Théoden and Erkenbrand.",
+    "infoLink": "https://tolkiengateway.net/wiki/Battle_of_the_Hornburg",
+    "tags": {
+      "events": [
+        "battle"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Bilbo stole the Ring from Gollum",
-      "date": "July 12, T.A. 2941",
-      "description": "Bilbo picked up a strange golden ring in the dark passages under Goblin-town. He then met Gollum whom defied him to a riddle contest for his life. Bilbo won, but then Gollum went to get his magic ring to kill him anyway. He then discovered that his ring was missing, and understood that Bilbo took it. He chased Bilbo, but Bilbo unwittingly used the ring and escaped his notice.",
-      "infoLink": "https://tolkiengateway.net/wiki/Bilbo_Baggins#Over_the_Misty_Mountains",
-      "tags": {
-        "events": [
-          "encounter",
-          "thorin"
-        ]
-      },
-      "x": 2685,
-      "y": 962
+    "x": 2423,
+    "y": 2321
+  },
+  {
+    "title": "Boromir",
+    "date": "February 26, T.A. 3019",
+    "description": "Boromir died at Amon Hen, the westernmost of the three peaks at the southern end of Nen Hithoel. He perished trying to defend Merry and Pippin from Saruman's Orcs, slaying at least 20 of them before perishing after being hit by many arrows.",
+    "infoLink": "https://tolkiengateway.net/wiki/Boromir",
+    "tags": {
+      "events": [
+        "death"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Merry and Pippin meet Treebeard",
-      "date": "February 29, T.A. 3019",
-      "description": "Treebeard discovered Merry and Pippin in Fangorn Forest after they escaped from Saruman's Orcs, and welcomed them to the WellingHall.",
-      "infoLink": "https://tolkiengateway.net/wiki/Treebeard",
-      "tags": {
-        "events": [
-          "encounter",
-          "war_of_the_ring"
-        ]
-      },
-      "x": 2460,
-      "y": 2052
+    "x": 3037,
+    "y": 2377
+  },
+  {
+    "title": "Gandlaf the Grey",
+    "date": "January 25, T.A. 3019",
+    "description": "Gandalf pursued the Balrog from the deepests dungeons of Moria to Durin's Tower, climbing through the whole Endless Stair, where they fought for three days and two nights. In the end, the Balrog was cast down and it broke the mountain-side as it fell. Gandalf himself died following this ordeal, but was later sent back to Middle-earth with even greater powers as Gandalf the White.",
+    "infoLink": "https://tolkiengateway.net/wiki/Battle_of_the_Peak",
+    "tags": {
+      "events": [
+        "death"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Tom Bombadil",
-      "date": "September 26, T.A. 3018",
-      "description": "Tom Bombadil, a mysterious creature living in the Dark Forst with his wife Goldberry, saved Frodo, Sam, Merry and Pippin from the Old Man Willow, an evil willow who cast a spell on them and trapped Merry and Pippin. He then hosted the hobbits for two nights, during which he told them many tales and songs.",
-      "infoLink": "https://tolkiengateway.net/wiki/Tom_Bombadil",
-      "tags": {
-        "events": [
-          "encounter",
-          "war_of_the_ring"
-        ]
-      },
-      "x": 1659,
-      "y": 1184
+    "x": 2500,
+    "y": 1558
+  },
+  {
+    "title": "Bilbo stole the Ring from Gollum",
+    "date": "July 12, T.A. 2941",
+    "description": "Bilbo picked up a strange golden ring in the dark passages under Goblin-town. He then met Gollum whom defied him to a riddle contest for his life. Bilbo won, but then Gollum went to get his magic ring to kill him anyway. He then discovered that his ring was missing, and understood that Bilbo took it. He chased Bilbo, but Bilbo unwittingly used the ring and escaped his notice.",
+    "infoLink": "https://tolkiengateway.net/wiki/Bilbo_Baggins#Over_the_Misty_Mountains",
+    "tags": {
+      "events": [
+        "encounter"
+      ],
+      "quests": [
+        "erebor"
+      ]
     },
-    {
-      "title": "Shelob",
-      "date": "March 12, T.A. 3019",
-      "description": "Shelob was born as the last child of the spider-like demon Ungoliant. On March 12 T.A. 3019, Gollum led Sam and Frodo into the tunnels of Shelob's Lair and abandoned them in the dark. He planned that Shelob would eat Sam and Frodo so that he could find the One Ring among the bones and clothes.",
-      "infoLink": "https://tolkiengateway.net/wiki/Shelob",
-      "tags": {
-        "events": [
-          "encounter",
-          "war_of_the_ring"
-        ]
-      },
-      "x": 3456,
-      "y": 2680
+    "x": 2685,
+    "y": 962
+  },
+  {
+    "title": "Merry and Pippin meet Treebeard",
+    "date": "February 29, T.A. 3019",
+    "description": "Treebeard discovered Merry and Pippin in Fangorn Forest after they escaped from Saruman's Orcs, and welcomed them to the WellingHall.",
+    "infoLink": "https://tolkiengateway.net/wiki/Treebeard",
+    "tags": {
+      "events": [
+        "encounter"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Stone Trolls",
-      "date": "May 28, T.A. 2941",
-      "description": "Three Stone Trolls (William, Tom and Bert) captured Bilbo and the Company of Thorin. Thanks to Gandalf who tricked them, they kept fighting over how to cook the dwarves until the sun set up, frozing them into stone statues.",
-      "infoLink": "https://tolkiengateway.net/wiki/Roast_Mutton",
-      "tags": {
-        "events": [
-          "encounter",
-          "thorin"
-        ]
-      },
-      "x": 2320,
-      "y": 1120
+    "x": 2460,
+    "y": 2052
+  },
+  {
+    "title": "Tom Bombadil",
+    "date": "September 26, T.A. 3018",
+    "description": "Tom Bombadil, a mysterious creature living in the Dark Forst with his wife Goldberry, saved Frodo, Sam, Merry and Pippin from the Old Man Willow, an evil willow who cast a spell on them and trapped Merry and Pippin. He then hosted the hobbits for two nights, during which he told them many tales and songs.",
+    "infoLink": "https://tolkiengateway.net/wiki/Tom_Bombadil",
+    "tags": {
+      "events": [
+        "encounter"
+      ],
+      "quests": [
+        "ring"
+      ]
     },
-    {
-      "title": "Giant Spiders",
-      "date": "August, T.A. 2941",
-      "description": "Giant spiders (Ungolianth's spawns) managed to capture and entangle in webs each of the thirteen Dwarves. Only Bilbo's magic Ring and his Elven blade Sting allowed them to escape from being eaten, before being captured by Thranduil's elves.",
-      "infoLink": "https://tolkiengateway.net/wiki/Flies_and_Spiders",
-      "tags": {
-        "events": [
-          "encounter",
-          "thorin"
-        ]
-      },
-      "x": 3250,
-      "y": 937
-    }
-  ]
-}
+    "x": 1659,
+    "y": 1184
+  },
+  {
+    "title": "Shelob",
+    "date": "March 12, T.A. 3019",
+    "description": "Shelob was born as the last child of the spider-like demon Ungoliant. On March 12 T.A. 3019, Gollum led Sam and Frodo into the tunnels of Shelob's Lair and abandoned them in the dark. He planned that Shelob would eat Sam and Frodo so that he could find the One Ring among the bones and clothes.",
+    "infoLink": "https://tolkiengateway.net/wiki/Shelob",
+    "tags": {
+      "events": [
+        "encounter"
+      ],
+      "quests": [
+        "ring"
+      ]
+    },
+    "x": 3456,
+    "y": 2680
+  },
+  {
+    "title": "Stone Trolls",
+    "date": "May 28, T.A. 2941",
+    "description": "Three Stone Trolls (William, Tom and Bert) captured Bilbo and the Company of Thorin. Thanks to Gandalf who tricked them, they kept fighting over how to cook the dwarves until the sun set up, frozing them into stone statues.",
+    "infoLink": "https://tolkiengateway.net/wiki/Roast_Mutton",
+    "tags": {
+      "events": [
+        "encounter"
+      ],
+      "quests": [
+        "erebor"
+      ]
+    },
+    "x": 2320,
+    "y": 1120
+  },
+  {
+    "title": "Giant Spiders",
+    "date": "August, T.A. 2941",
+    "description": "Giant spiders (Ungolianth's spawns) managed to capture and entangle in webs each of the thirteen Dwarves. Only Bilbo's magic Ring and his Elven blade Sting allowed them to escape from being eaten, before being captured by Thranduil's elves.",
+    "infoLink": "https://tolkiengateway.net/wiki/Flies_and_Spiders",
+    "tags": {
+      "events": [
+        "encounter"
+      ],
+      "quests": [
+        "erebor"
+      ]
+    },
+    "x": 3250,
+    "y": 937
+  },
+  {
+    "title": "Barrow-wights",
+    "date": "Septeùber 28, T.A. 3018",
+    "description": "The Barrow-wights were a kind of undead-like creatures, dead bones animated by evil spirits. Frodo, Sam, Merry an Pippin were trapped in the Barrow-downs by the spells of the Barrow-wights, and were nearly slain by the creatures. They were saved in the last minute by Tom, who seemed to have had complete authority over them.",
+    "infoLink": "https://tolkiengateway.net/wiki/Barrow-wights",
+    "tags": {
+      "events": [
+        "encounter"
+      ],
+      "quests": [
+        "ring"
+      ]
+    },
+    "x": 1725,
+    "y": 1200
+  },
+  {
+    "title": "Old Man Willow",
+    "date": "Septeùber 26, T.A. 3018",
+    "description": "Old Man Willow was a willow tree in the Old Forest, who might have been an Ent who had become tree-like, or possibly a Huorn. Old Man Willow cast a spell on the Hobbits, Frodo, Sam, Merry and Pippin, causing them to fall asleep and trying to kill them. They were saved by the timely arrival of Tom Bombadil who knew \"the tune for him\".",
+    "infoLink": "https://tolkiengateway.net/wiki/Old_Man_Willow",
+    "tags": {
+      "events": [
+        "encounter"
+      ],
+      "quests": [
+        "ring"
+      ]
+    },
+    "x": 1615,
+    "y": 1225
+  }
+]
 
 
