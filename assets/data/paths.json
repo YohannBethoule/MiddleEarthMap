@@ -3,6 +3,9 @@
     "name": "Thorin and Company",
     "id": "thorin",
     "color": "red",
+    "distance": "950 miles / 1530 km",
+    "startDate": "April 27",
+    "endDate": "November 23, T.A. 2941",
     "path": [
       [
         1486.00,
@@ -1594,6 +1597,9 @@
     "name": "Frodo & Sam",
     "id": "frodo_sam",
     "color": "orange",
+    "distance": "1600 miles / 2600 km",
+    "startDate": "September 23, T.A. 3018",
+    "endDate": "March 25, T.A. 3019",
     "path": [
       [
         1484.00,
@@ -4401,6 +4407,9 @@
     "name": "Merry & Pippin",
     "id": "merry_pippin",
     "color": "brown",
+    "distance": "2100 miles / 3400 km",
+    "startDate": "September 23, T.A. 3018",
+    "endDate": "March 25, T.A. 3019",
     "path": [
       [
         1484.00,
@@ -8120,6 +8129,9 @@
     "name": "Gimli & Legolas",
     "id": "legolas_gimli",
     "color": "purple",
+    "distance": "1800 miles / 2900 km",
+    "startDate": "December 25, T.A. 3018",
+    "endDate": "March 25, T.A. 3019",
     "path": [
       [
         3374.00,
@@ -11679,6 +11691,9 @@
     "name": "Boromir",
     "id": "boromir",
     "color": "green",
+    "distance": "650 miles / 1050 km",
+    "startDate": "December 25, T.A. 3018",
+    "endDate": "February 25, T.A. 3019",
     "path": [
       [
         3045.00,
@@ -12894,6 +12909,9 @@
     "name": "Gandalf the Grey",
     "id": "gandalf_grey",
     "color": "gray",
+    "distance": "280 miles / 450 km (from Rivendell)",
+    "startDate": "December 25, T.A. 3018",
+    "endDate": "January 15, T.A. 3019",
     "path": [
       [
         2337.00,
@@ -15037,6 +15055,9 @@
     "name": "Gandalf the White",
     "id": "gandalf_white",
     "color": "gold",
+    "distance": "950 miles / 1530 km",
+    "startDate": "March 1",
+    "endDate": "March 25, T.A. 3019",
     "path": [
       [
         2532.00,
@@ -17076,6 +17097,9 @@
     "name": "Aragorn",
     "id": "aragorn",
     "color": "blue",
+    "distance": "2100 miles / 3400 km",
+    "startDate": "September 29, T.A. 3018",
+    "endDate": "March 25, T.A. 3019",
     "path": [
       [
         3374.00,

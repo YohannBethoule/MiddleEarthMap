@@ -72,9 +72,21 @@
 }
 
 .path-tooltip {
-  background: $primary-color;
-  font-size: 1.2rem;
-  font-weight: bold;
+  background: $primary-color !important;
+
   border-radius: 20px !important;
   padding: 1rem !important;
+  max-width: 90vw;
+  min-width: 15rem;
+  white-space: normal !important;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
+
+  .path-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .path-date {
+    font-weight: bold;
+  }
 }

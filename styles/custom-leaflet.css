@@ -60,11 +60,22 @@
 }
 
 .path-tooltip {
-  background: #F9F4ED;
-  font-size: 1.2rem;
-  font-weight: bold;
+  background: #F9F4ED !important;
   border-radius: 20px !important;
   padding: 1rem !important;
+  max-width: 90vw;
+  min-width: 15rem;
+  white-space: normal !important;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
+}
+
+.path-tooltip .path-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.path-tooltip .path-date {
+  font-weight: bold;
 }
 
 main.leaflet-container {

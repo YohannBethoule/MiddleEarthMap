@@ -90,13 +90,21 @@ const renderPathsFromFilters = (filters) => {
         if (filters.paths.includes(p.id)) {
             const latLongs = p.path.map(l => [4334 - l[1], l[0]])
             const line = L.polyline(latLongs, {color: p.color, weight: 4})
-            line.bindTooltip(p.name, {
+            line.bindTooltip(pathTooltip(p), {
                 sticky: true,
                 className: "path-tooltip"
             }).addTo(pathsLayer);
         }
     }
 }
+
+const pathTooltip = (path) => (
+    `
+        <div class="path-name">${path.name}</div> 
+        <div class="path-date">[ ${path.startDate} - <br/> ${path.endDate} ]</div>
+        <div class="path-distance">${path.distance}</div> 
+    `
+)
 
 const onFilterChange = (e) => {
     const element = e.target;
