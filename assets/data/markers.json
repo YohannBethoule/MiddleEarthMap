@@ -399,6 +399,22 @@
     "y": 855
   },
   {
+    "title": "Smaug",
+    "date": "November 1, T.A. 2941",
+    "description": "Bard fired a Black Arrow into the vulnerable spot on the dragon's belly. Roaring in fury and pain, Smaug fell from the sky and plummeted into the flaming ruins of Lake-town, his death marked the end of the great dragons in Middle-earth.",
+    "infoLink": "https://tolkiengateway.net/wiki/Smaug",
+    "tags": {
+      "events": [
+        "death"
+      ],
+      "quests": [
+        "erebor"
+      ]
+    },
+    "x": 3418,
+    "y": 885
+  },
+  {
     "title": "Battle of Dagorlad",
     "date": "3434 of the Second Age",
     "description": "The Battle of Dagorlad was fought between the army of the Last Alliance under Gil-galad and Elendil and an army of Orcs and other creatures loyal to Sauron.",
@@ -432,12 +448,28 @@
   },
   {
     "title": "Battle of Five Armies",
-    "date": "2941 of the Third Age",
+    "date": "November 23, T.A. 2941",
     "description": "The five warring parties were the Goblins and the Wargs against Men, Elves and Dwarves on and near the Lonely Mountain.",
     "infoLink": "https://tolkiengateway.net/wiki/Battle_of_Five_Armies",
     "tags": {
       "events": [
         "battle"
+      ],
+      "quests": [
+        "erebor"
+      ]
+    },
+    "x": 3405,
+    "y": 825
+  },
+  {
+    "title": "Thorin, Fíli and Kíli",
+    "date": "November 23, T.A. 2941",
+    "description": "When Bilbo regained consciousness, the battle was already over. Thorin II Oakenshield had been mortally wounded on the field, and his nephews Fíli and Kíli died defending him as he lay on the ground.",
+    "infoLink": "https://tolkiengateway.net/wiki/Battle_of_Five_Armies",
+    "tags": {
+      "events": [
+        "death"
       ],
       "quests": [
         "erebor"
