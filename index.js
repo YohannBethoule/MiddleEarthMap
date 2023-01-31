@@ -1,5 +1,6 @@
 import mapImage from '/assets/images/map.webp';
 import markersData from './assets/data/markers.json';
+import pathsData from './assets/data/paths.json';
 import {battleIcon, darkIcon, deathIcon, dwarfIcon, elfIcon, encounterIcon, hobbitIcon, humanIcon} from "./mapIcons.js";
 
 const map = L.map('map', {
@@ -17,12 +18,15 @@ const cluster = L.markerClusterGroup({
 });
 map.addLayer(cluster);
 
+const pathsLayer = L.layerGroup([]);
+map.addLayer(pathsLayer)
+
 const createInfoDialog = (data) => {
     let info = ``;
     if (data.title) {
         info += `<h1 class="title">${data.title}`;
-        if (data.sildarinTitle) {
-            info += ` (${data.sildarinTitle})`
+        if (data.sindarinTitle) {
+            info += ` (${data.sindarinTitle})`
         }
         info += `</h1>`;
     }
@@ -43,6 +47,7 @@ const getFilters = () => {
         'places': [],
         'events': [],
         'quests': [],
+        'paths': [],
     };
     document.querySelectorAll('#filters fieldset').forEach(category => {
         category.querySelectorAll('input[type=checkbox]:checked').forEach(filter => {
@@ -79,6 +84,20 @@ const renderMarkersFromFilters = (filters) => {
     cluster.addLayers(markers)
 }
 
+const renderPathsFromFilters = (filters) => {
+    pathsLayer.clearLayers();
+    for (const p of pathsData) {
+        if (filters.paths.includes(p.id)) {
+            const latLongs = p.path.map(l => [4334 - l[1], l[0]])
+            const line = L.polyline(latLongs, {color: p.color, weight: 4})
+            line.bindTooltip(p.name, {
+                sticky: true,
+                className: "path-tooltip"
+            }).addTo(pathsLayer);
+        }
+    }
+}
+
 const onFilterChange = (e) => {
     const element = e.target;
     if (element.dataset.filter === 'all') {
@@ -93,6 +112,7 @@ const onFilterChange = (e) => {
         })
     }
     renderMarkersFromFilters(getFilters());
+    renderPathsFromFilters(getFilters());
 }
 
 const createMarker = (map, data) => {
@@ -135,3 +155,4 @@ document.getElementById('close-btn').addEventListener('click', () => {
 });
 
 renderMarkersFromFilters(getFilters());
+renderPathsFromFilters(getFilters());

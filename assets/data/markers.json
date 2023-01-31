@@ -159,7 +159,7 @@
   {
     "title": "Weathertop",
     "sindarinTitle": "Amun Sûl",
-    "description": "In T.A.3018, Amun Sûl was the scene of two fights involving the Nazgûl: one with Gandalf on October 3 and one with the Ring-bearer three days later..",
+    "description": "In T.A.3018, Amun Sûl was the scene of two fights involving the Nazgûl: one with Gandalf on October 3 and one with the Ring-bearer three days later.",
     "infoLink": "https://tolkiengateway.net/wiki/Weathertop",
     "tags": {
       "places": [
@@ -175,7 +175,7 @@
   {
     "title": "Isengard",
     "sindarinTitle": "Angrenost",
-    "description": "Isengard was one of the three major fortresses of Gondor, and held within it one of the realm's palantíri. In the latter half of the Third Age, the stronghold came into the possession of Saruman, becoming his home and personal domain until his defeat in the War of the Ring. ",
+    "description": "Isengard was one of the three major fortresses of Gondor, and held within it one of the realm's palantíri. In the latter half of the Third Age, the stronghold came into the possession of Saruman, becoming his home and personal domain until his defeat in the War of the Ring.",
     "infoLink": "https://tolkiengateway.net/wiki/Isengard",
     "tags": {
       "places": [
@@ -221,7 +221,7 @@
   {
     "title": "Moria",
     "sindarinTitle": "Khazad-dûm",
-    "description": "Khazad-dûm was the grandest and most famous of the mansions of the Dwarves. There, for many thousands of years, a thriving Dwarvish community created the greatest city ever known. ",
+    "description": "Khazad-dûm was the grandest and most famous of the mansions of the Dwarves. There, for many thousands of years, a thriving Dwarvish community created the greatest city ever known.",
     "infoLink": "https://tolkiengateway.net/wiki/Moria",
     "tags": {
       "places": [
@@ -267,7 +267,7 @@
   },
   {
     "title": "Elvenking's Hall",
-    "description": "Elvenking's Hall were a cave system in northern Mirkwood, in which King Thranduil and many of the Elves of Mirkwood lived during most of the Third Age and into the Fourth Age. ",
+    "description": "Elvenking's Hall were a cave system in northern Mirkwood, in which King Thranduil and many of the Elves of Mirkwood lived during most of the Third Age and into the Fourth Age.",
     "infoLink": "https://tolkiengateway.net/wiki/Elvenking's_Halls",
     "tags": {
       "places": [
@@ -355,7 +355,7 @@
   },
   {
     "title": "Beorn's Hall",
-    "description": "Beorn's Hall was the home of Beorn, a powerful Skin-changer. Beorn hosted and aided Thorin and Company during their Quest for Erebor",
+    "description": "Beorn's Hall was the home of Beorn, a powerful Skin-changer. Beorn hosted and aided Thorin and Company during their Quest for Erebor.",
     "infoLink": "https://tolkiengateway.net/wiki/Beorn's_Hall",
     "tags": {
       "places": [
@@ -640,7 +640,7 @@
   },
   {
     "title": "Old Man Willow",
-    "date": "Septeùber 26, T.A. 3018",
+    "date": "September 26, T.A. 3018",
     "description": "Old Man Willow was a willow tree in the Old Forest, who might have been an Ent who had become tree-like, or possibly a Huorn. Old Man Willow cast a spell on the Hobbits, Frodo, Sam, Merry and Pippin, causing them to fall asleep and trying to kill them. They were saved by the timely arrival of Tom Bombadil who knew \"the tune for him\".",
     "infoLink": "https://tolkiengateway.net/wiki/Old_Man_Willow",
     "tags": {
@@ -653,6 +653,22 @@
     },
     "x": 1615,
     "y": 1225
+  },
+  {
+    "title": "Battle of Bywater",
+    "date": "November 3, T.A. 3019",
+    "description": "The Battle of Bywater was a battle for control of the Shire and the final battle of the War of the Ring. After he fleed from the Battle of Isengard, Saruman took control over the Shire with a band of ruffians. When Frodo and his companions returned from the Coronation of Elessar, they rallied the hobbits wanting to resist and defeated the ruffians, then confronted Saruman. Wormtongue killed Saruman and was shot dead by the hobbits.",
+    "infoLink": "https://tolkiengateway.net/wiki/Battle_of_Bywater",
+    "tags": {
+      "events": [
+        "battle"
+      ],
+      "quests": [
+        "ring"
+      ]
+    },
+    "x": 1507,
+    "y": 1163
   }
 ]
 

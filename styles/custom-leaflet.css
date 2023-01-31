@@ -52,10 +52,19 @@
   color: white;
   text-align: center;
 }
+
 .leaflet-popup a.info-link:hover {
   opacity: 0.9;
   color: aliceblue;
   text-decoration: underline;
+}
+
+.path-tooltip {
+  background: #F9F4ED;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 20px !important;
+  padding: 1rem !important;
 }
 
 main.leaflet-container {
@@ -70,7 +79,6 @@ main.leaflet-container {
   width: 1.8rem !important;
   height: 1.8rem !important;
 }
-
 .leaflet-marker-icon:hover {
   opacity: 0.7 !important;
 }
@@ -78,14 +86,12 @@ main.leaflet-container {
 .marker-cluster {
   background: transparent !important;
 }
-
 .marker-cluster div {
   background-color: rgb(68, 171, 12) !important;
   width: 100% !important;
   height: 100% !important;
   border-radius: 100% !important;
 }
-
 .marker-cluster div span {
   font-family: "Lora", serif;
   font-size: 0.8rem;
