@@ -10,7 +10,15 @@ const map = L.map('map', {
 });
 
 const bounds = [[0, 0], [4334, 5000]];
-L.imageOverlay(mapImage, bounds).addTo(map);
+L.imageOverlay(mapImage, bounds).addEventListener('load', () => {
+    setTimeout(() => {
+        document.getElementById("lds-ring").style.opacity = '0';
+        const loader = document.getElementById("loader-screen");
+        loader.style.opacity = '0';
+        loader.addEventListener('transitionend', () => loader.remove());
+    }, 1500)
+}).addTo(map);
+
 map.fitBounds(bounds);
 
 const cluster = L.markerClusterGroup({

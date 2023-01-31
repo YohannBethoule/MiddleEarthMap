@@ -34,3 +34,72 @@ body {
   'GRAD' 0,
   'opsz' 48
 }
+
+#loader-screen {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+  background: $primary-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 1s linear;
+  flex-direction: column;
+  padding: 2rem;
+
+  h1 {
+    text-shadow: -3px 4px 7px rgba(81, 67, 21, 0.8);
+    font-family: "RingBearer", serif;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    text-align: center;
+
+    @media (min-width: $br-mobile) {
+      font-size: 5rem;
+    }
+  }
+
+  #lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+
+  #lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #000000;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #000000 transparent transparent transparent;
+  }
+
+  #lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+
+  #lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+
+  #lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
