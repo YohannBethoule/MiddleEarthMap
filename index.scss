@@ -8,7 +8,7 @@ html, body {
   width: 100vw;
   height: 100vh;
   font-size: 20px;
-  font-family: "Lora", serif;
+  font-family: "Lora", monospace;
   overflow: hidden;
 }
 
@@ -62,8 +62,24 @@ body {
     }
   }
 
+  #load-btn {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 1px;
+    background: #F9F4ED;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.63);
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: inherit;
+
+    &:hover {
+      opacity: 0.9;
+      box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.63);
+    }
+  }
+
   #lds-ring {
-    display: inline-block;
+    display: none;
     position: relative;
     width: 80px;
     height: 80px;
