@@ -3,31 +3,43 @@ import markersData from './assets/data/markers.json';
 import pathsData from './assets/data/paths.json';
 import {battleIcon, darkIcon, deathIcon, dwarfIcon, elfIcon, encounterIcon, hobbitIcon, humanIcon} from "./mapIcons.js";
 
-const map = L.map('map', {
-    crs: L.CRS.Simple,
-    minZoom: -2,
-    maxZoom: 2
-});
 
-const bounds = [[0, 0], [4334, 5000]];
-L.imageOverlay(mapImage, bounds).addEventListener('load', () => {
-    setTimeout(() => {
-        document.getElementById("lds-ring").style.opacity = '0';
-        const loader = document.getElementById("loader-screen");
-        loader.style.opacity = '0';
-        loader.addEventListener('transitionend', () => loader.remove());
-    }, 1500)
-}).addTo(map);
+let cluster, pathsLayer;
 
-map.fitBounds(bounds);
+const loadMap = async () => {
+    document.getElementById("lds-ring").style.display = 'inline-block';
+    document.getElementById("load-btn").style.display = 'none';
+    await import('/assets/images/map.webp')
+    const map = L.map('map', {
+        crs: L.CRS.Simple,
+        minZoom: -2,
+        maxZoom: 2
+    });
 
-const cluster = L.markerClusterGroup({
-    maxClusterRadius: 20
-});
-map.addLayer(cluster);
+    const bounds = [[0, 0], [4334, 5000]];
+    L.imageOverlay(mapImage, bounds).addEventListener('load', () => {
+        setTimeout(() => {
+            document.getElementById("lds-ring").style.opacity = '0';
+            const loader = document.getElementById("loader-screen");
+            loader.style.opacity = '0';
+            loader.addEventListener('transitionend', () => loader.remove());
+        }, 1500)
+        renderMarkersFromFilters(getFilters());
+        renderPathsFromFilters(getFilters());
+    }).addTo(map);
 
-const pathsLayer = L.layerGroup([]);
-map.addLayer(pathsLayer)
+    map.fitBounds(bounds);
+
+    cluster = L.markerClusterGroup({
+        maxClusterRadius: 20
+    });
+    map.addLayer(cluster);
+
+    pathsLayer = L.layerGroup([]);
+    map.addLayer(pathsLayer)
+
+
+}
 
 const createInfoDialog = (data) => {
     let info = ``;
@@ -170,5 +182,5 @@ document.getElementById('close-btn').addEventListener('click', () => {
     document.getElementById('filters-container').classList.remove('active');
 });
 
-renderMarkersFromFilters(getFilters());
-renderPathsFromFilters(getFilters());
+document.getElementById('load-btn').addEventListener('click', loadMap);
+
