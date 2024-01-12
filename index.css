@@ -20,7 +20,8 @@ aside {
   box-shadow: -7px 5px 7px -1px rgba(0, 0, 0, 0.63);
   overflow: visible;
 }
-@media (min-width: 1000px) {
+
+@media (min-width: 840px) {
   aside {
     width: 30vw;
   }
@@ -47,7 +48,8 @@ aside #close-btn {
   display: flex;
   justify-content: center;
 }
-@media (min-width: 1000px) {
+
+@media (min-width: 840px) {
   aside #close-btn {
     left: -1.5rem;
     transform: translateX(100%);
@@ -81,7 +83,7 @@ aside #filters fieldset {
   flex-wrap: wrap;
   margin: 1rem;
   align-items: center;
-  padding: 0.6rem 2rem;
+  padding: 0.6rem 1.5rem;
   gap: 0.5rem 1rem;
   border: 0;
   box-shadow: -5px 3px 7px -1px rgba(0, 0, 0, 0.5);
@@ -124,7 +126,8 @@ aside footer .credits {
   padding: 1rem;
   width: auto !important;
 }
-@media (min-width: 1000px) {
+
+@media (min-width: 840px) {
   .leaflet-popup .leaflet-popup-content {
     padding: 1rem 2rem;
   }
@@ -261,12 +264,12 @@ body {
   margin-bottom: 5rem;
   text-align: center;
 }
-@media (min-width: 1000px) {
+
+@media (min-width: 840px) {
   #loader-screen h1 {
     font-size: 5rem;
   }
 }
-
 #loader-screen #load-btn {
   background: rgba(0, 0, 0, 0.1);
   padding: 1rem;
@@ -277,7 +280,6 @@ body {
   font-weight: bold;
   font-family: inherit;
 }
-
 #loader-screen #load-btn:hover {
   opacity: 0.9;
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.63);

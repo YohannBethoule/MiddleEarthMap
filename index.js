@@ -114,6 +114,14 @@ const renderPathsFromFilters = (filters) => {
                 sticky: true,
                 className: "path-tooltip"
             }).addTo(pathsLayer);
+
+            // Invisible wider line for easier interaction
+            const interactionLine = L.polyline(latLongs, {color: 'transparent', weight: 40});
+            interactionLine.bindTooltip(pathTooltip(p), {
+                sticky: true,
+                className: "path-tooltip",
+                //offset: [0, -20]
+            }).addTo(pathsLayer);
         }
     }
 }
@@ -184,3 +192,6 @@ document.getElementById('close-btn').addEventListener('click', () => {
 
 document.getElementById('load-btn').addEventListener('click', loadMap);
 
+if (window.innerWidth > 840) {
+    document.getElementById('filters-container').classList.add('active');
+}
