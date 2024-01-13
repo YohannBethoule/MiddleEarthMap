@@ -20,7 +20,6 @@ aside {
   box-shadow: -7px 5px 7px -1px rgba(0, 0, 0, 0.63);
   overflow: visible;
 }
-
 @media (min-width: 840px) {
   aside {
     width: 30vw;
@@ -48,7 +47,6 @@ aside #close-btn {
   display: flex;
   justify-content: center;
 }
-
 @media (min-width: 840px) {
   aside #close-btn {
     left: -1.5rem;
@@ -126,7 +124,6 @@ aside footer .credits {
   padding: 1rem;
   width: auto !important;
 }
-
 @media (min-width: 840px) {
   .leaflet-popup .leaflet-popup-content {
     padding: 1rem 2rem;
@@ -264,7 +261,6 @@ body {
   margin-bottom: 5rem;
   text-align: center;
 }
-
 @media (min-width: 840px) {
   #loader-screen h1 {
     font-size: 5rem;
@@ -275,6 +271,7 @@ body {
   padding: 1rem;
   border-radius: 1px;
   background: #F9F4ED;
+    border: 0;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.63);
   font-size: 1.5rem;
   font-weight: bold;
