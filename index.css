@@ -93,6 +93,21 @@ aside #filters fieldset legend {
   font-weight: bold;
   padding: 0 1rem;
 }
+
+aside #filters #donate {
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+aside #filters #donate img {
+  width: 2rem;
+}
+
+aside #filters #donate p {
+  margin: 0.5rem 0;
+}
 aside footer {
   margin-top: auto;
   text-align: center;
@@ -271,7 +286,7 @@ body {
   padding: 1rem;
   border-radius: 1px;
   background: #F9F4ED;
-    border: 0;
+  border: 0;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.63);
   font-size: 1.5rem;
   font-weight: bold;

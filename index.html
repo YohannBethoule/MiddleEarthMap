@@ -46,6 +46,12 @@
         <h1 id="main-title">Middle-Earth interactive map</h1>
         <div id="site-description">Discover Middle-Earth during the Third Age</div>
 
+        <fieldset id="donate">
+            <img alt="buy me a coffee" src="assets/icons/coffee.svg"/>
+            <p>If you like my work, please consider <a href="https://www.buymeacoffee.com/yohannbethoule"
+                                                       target="_blank">buying me a coffee</a></p>
+        </fieldset>
+
         <fieldset id="filters-quests">
             <legend>Quests</legend>
 
@@ -202,5 +208,19 @@
 </aside>
 
 <script src="index.js" type="module"></script>
+<script type="module">
+    function configureScript() {
+        if (typeof window.configureTracker === 'function') {
+            window.configureTracker(import.meta.env.VITE_TRACKER_API_KEY, import.meta.env.VITE_TRACKER_WEBSITE_ID, import.meta.env.VITE_TRACKER_URL)
+        }
+    }
+
+    const trackerScript = document.createElement('script');
+    trackerScript.src = "https://cdn.jsdelivr.net/gh/YohannBethoule/glimpseguru-script@master/glimpseguru.min.js";
+    trackerScript.defer = true;
+    trackerScript.onload = configureScript;
+    document.head.appendChild(trackerScript);
+</script>
+
 </body>
 </html>
