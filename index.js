@@ -38,7 +38,15 @@ const loadMap = async () => {
     pathsLayer = L.layerGroup([]);
     map.addLayer(pathsLayer)
 
+    if (typeof window.trackCustomEvent === 'function') {
+        window.trackCustomEvent('load map')
+    }
+}
 
+const handleDonationClick = () => {
+    if (typeof window.trackCustomEvent === 'function') {
+        window.trackCustomEvent('donation click')
+    }
 }
 
 const createInfoDialog = (data) => {
@@ -192,6 +200,10 @@ document.getElementById('close-btn').addEventListener('click', () => {
 
 document.getElementById('load-btn').addEventListener('click', loadMap);
 
+document.getElementById('donation-link').addEventListener('click', handleDonationClick);
+
 if (window.innerWidth > 840) {
     document.getElementById('filters-container').classList.add('active');
 }
+
+
