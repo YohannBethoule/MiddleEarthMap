@@ -93,18 +93,15 @@ aside #filters fieldset legend {
   font-weight: bold;
   padding: 0 1rem;
 }
-
 aside #filters #donate {
   display: flex;
   flex-wrap: nowrap;
   font-size: 0.8rem;
   text-align: center;
 }
-
 aside #filters #donate img {
   width: 2rem;
 }
-
 aside #filters #donate p {
   margin: 0.5rem 0;
 }
