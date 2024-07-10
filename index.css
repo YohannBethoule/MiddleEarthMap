@@ -192,11 +192,11 @@ aside footer .credits {
   font-weight: bold;
 }
 
-main.leaflet-container {
+.leaflet-container {
   height: 100vh;
   width: 100vw;
   position: absolute;
-  background: rgb(32, 32, 32);
+  background: #F9F4ED !important;
   font-family: "Lora", serif;
 }
 
@@ -236,14 +236,20 @@ body {
   position: relative;
 }
 
-#open-btn {
+#control-buttons {
   position: absolute;
+  z-index: 410;
   top: 0;
   right: 0.5rem;
-  z-index: 410;
+  display: flex;
+  flex-direction: column;
+}
+
+#control-buttons > a {
   width: 3rem;
 }
-#open-btn:hover {
+
+#control-buttons > a:hover {
   opacity: 0.7;
 }
 
