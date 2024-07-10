@@ -18,9 +18,15 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
 </head>
 <body>
-<a href="#" id="open-btn">
-    <img alt="open filters" src="assets/icons/layers.svg">
-</a>
+<div id="control-buttons">
+    <a href="#" id="open-filters-btn">
+        <img alt="Open filters" src="assets/icons/layers.svg">
+    </a>
+    <a href="#" id="map-comparison-btn" title="Compare with Earth map">
+        <img alt="Compare with Earth map" src="assets/icons/earth.svg">
+    </a>
+</div>
+
 <div id="loader-screen">
     <h1>
         Welcome to Middle-Earth
@@ -35,13 +41,16 @@
         <div></div>
     </div>
 </div>
-<main id="map">
+
+<main>
+    <div id="middle-earth-map"></div>
+    <div id="osm-map"></div>
 </main>
 
 <aside id="filters-container">
-        <span class="material-symbols-outlined" id="close-btn">
-            <img alt="close filters" src="assets/icons/close.svg">
-        </span>
+    <span class="material-symbols-outlined" id="close-btn">
+        <img alt="close filters" src="assets/icons/close.svg">
+    </span>
     <section id="filters">
         <h1 id="main-title">Middle-Earth interactive map</h1>
         <div id="site-description">Discover Middle-Earth during the Third Age</div>
