@@ -16,6 +16,9 @@ export const toggleRealWorldMap = () => {
 }
 
 const renderRealWorldMap = () => {
+    if (typeof window.trackCustomEvent === 'function') {
+        window.trackCustomEvent('map comparison')
+    }
     osmMap = L.map('osm-map', {
         minZoom: getZoomFromDevice(),
         maxZoom: getZoomFromDevice(),
