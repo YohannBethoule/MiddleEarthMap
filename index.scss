@@ -51,6 +51,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+    gap: 3rem;
   transition: opacity 1s linear;
   flex-direction: column;
   padding: 2rem;
@@ -59,7 +60,6 @@ body {
     text-shadow: -3px 4px 7px rgba(81, 67, 21, 0.8);
     font-family: "RingBearer", serif;
     font-size: 3rem;
-    margin-bottom: 5rem;
     text-align: center;
 
     @media (min-width: $br-mobile) {
@@ -124,4 +124,12 @@ body {
       transform: rotate(360deg);
     }
   }
+}
+
+#rop-banner {
+    border: 0;
+    box-shadow: -5px 3px 7px -1px rgba(0, 0, 0, 0.50);
+    padding: .6rem 1.5rem;
+    text-align: center;
+    max-width: 1000px;
 }
