@@ -2,91 +2,91 @@
 
 
 .leaflet-popup {
-  width: 90vw;
-  max-width: 30rem;
-  z-index: 420;
+    width: 90vw;
+    max-width: 30rem;
+    z-index: 420;
 
-  .leaflet-popup-content-wrapper {
-    background: $primary-color;
-  }
-
-  .leaflet-popup-close-button {
-    margin: 1rem 2rem;
-
-    span {
-      font-size: 2rem;
+    .leaflet-popup-content-wrapper {
+        background: $primary-color;
     }
 
-    &:hover {
-      text-decoration: underline;
+    .leaflet-popup-close-button {
+        margin: 1rem 2rem;
+
+        span {
+            font-size: 2rem;
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
-  }
 
-  .leaflet-popup-content {
-    padding: 1rem;
-    width: auto !important;
+    .leaflet-popup-content {
+        padding: 1rem;
+        width: auto !important;
 
-    @media (min-width: $br-mobile) {
-      padding: 1rem 2rem;
+        @media (min-width: $br-mobile) {
+            padding: 1rem 2rem;
+        }
     }
-  }
 
-  .title {
-    font-weight: bold;
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-    border-bottom: 1px solid #cecece;
-    padding-bottom: 1rem;
-  }
-
-  .date {
-    font-weight: bold;
-    font-size: 1rem;
-  }
-
-  .description {
-    font-size: 1rem;
-    line-height: 1.4rem;
-  }
-
-  .info-link-container {
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-  }
-
-  a.info-link {
-    border: 1px solid black;
-    background-color: rgba(0, 0, 0, 0.78);
-    padding: .6rem;
-    text-decoration: none;
-    color: white;
-    text-align: center;
-
-    &:hover {
-      opacity: 0.9;
-      color: aliceblue;
-      text-decoration: underline;
+    .title {
+        font-weight: bold;
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid #cecece;
+        padding-bottom: 1rem;
     }
-  }
+
+    .date {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .description {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+    .info-link-container {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    a.info-link {
+        border: 1px solid black;
+        background-color: rgba(0, 0, 0, 0.78);
+        padding: .6rem;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+
+        &:hover {
+            opacity: 0.9;
+            color: aliceblue;
+            text-decoration: underline;
+        }
+    }
 }
 
 .path-tooltip {
-  background: $primary-color !important;
+    background: $primary-color !important;
 
-  border-radius: 20px !important;
-  padding: 1rem !important;
-  max-width: 90vw;
-  min-width: 15rem;
-  white-space: normal !important;
-  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
+    border-radius: 20px !important;
+    padding: 1rem !important;
+    max-width: 90vw;
+    min-width: 15rem;
+    white-space: normal !important;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
 
-  .path-name {
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
+    .path-name {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
 
-  .path-date {
-    font-weight: bold;
-  }
+    .path-date {
+        font-weight: bold;
+    }
 }
