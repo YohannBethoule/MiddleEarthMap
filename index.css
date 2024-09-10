@@ -251,14 +251,20 @@ body {
   opacity: 0.7;
 }
 
+@media screen and (max-width: 840px) {
+    #map-comparison-btn {
+        display: none;
+    }
+}
+
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
 #loader-screen {
   position: fixed;
-  width: 100vw;
-  height: 100vh;
+    width: 100dvw;
+    height: 100dvh;
   top: 0;
   left: 0;
   z-index: 1001;
