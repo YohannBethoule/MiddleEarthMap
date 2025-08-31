@@ -19,6 +19,9 @@ const renderRealWorldMap = () => {
     if (typeof window.trackCustomEvent === 'function') {
         window.trackCustomEvent('map comparison')
     }
+    if (window.umami) {
+        trackButtonClick()
+    }
     osmMap = L.map('osm-map', {
         minZoom: getZoomFromDevice(),
         maxZoom: getZoomFromDevice(),
@@ -57,3 +60,14 @@ const getZoomFromDevice = () => {
         return OSM_ZOOM;
     }
 }
+
+const trackButtonClick = (function() {
+    let hasTracked = false;
+
+    return function() {
+        if (hasTracked) return;
+
+        umami.track('Map comparison');
+        hasTracked = true;
+    };
+})();
