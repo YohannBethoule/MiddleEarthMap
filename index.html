@@ -12,6 +12,7 @@
     <link href="/leaflet/marker_cluster/MarkerCluster.css" rel="stylesheet"/>
     <link href="/leaflet/marker_cluster/MarkerCluster.Default.css" rel="stylesheet"/>
     <script src="/leaflet/marker_cluster/leaflet.markercluster.js"></script>
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="01a3f3a2-944a-4622-a69f-88a76de94de2"></script>
 
     <title>Middle-Earth Map</title>
     <meta content="Discover Middle Earth during Third Age with this interactive map." name="description"/>
@@ -35,7 +36,7 @@
     <h1>
         Welcome to Middle-Earth
     </h1>
-    <button id="load-btn">
+    <button id="load-btn" data-umami-event="Load map">
         See Map
     </button>
     <div id="lds-ring">
@@ -62,7 +63,7 @@
         <fieldset id="donate">
             <img alt="buy me a coffee" src="assets/icons/coffee.svg"/>
             <p>If you like my work, please consider <a href="https://www.buymeacoffee.com/yohannbethoule"
-                                                       id="donation-link"
+                                                       id="donation-link" data-umami-event="Donation button"
                                                        target="_blank">buying me a coffee</a></p>
         </fieldset>
 
