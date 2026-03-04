@@ -1,12 +1,22 @@
-import mapImage from "../assets/images/map.webp";
+import localMapImage from "../assets/images/map.webp";
 import {renderFilters} from "./filters.js";
+
+const cdnMapImage = "https://cdn.middleearthmap.app/map.webp";
+
+const getMapImage = async () => {
+    try {
+        const response = await fetch(cdnMapImage, { method: 'HEAD' });
+        if (response.ok) return cdnMapImage;
+    } catch (_) {}
+    return localMapImage;
+}
 
 export var map, cluster, pathsLayer;
 
 export const loadMap = async () => {
     document.getElementById("lds-ring").style.display = 'inline-block';
     document.getElementById("load-btn").style.display = 'none';
-    await import('/assets/images/map.webp')
+    const mapImage = await getMapImage();
     map = L.map('middle-earth-map', {
         crs: L.CRS.Simple,
         minZoom: getMinZoomFromDevice(),
